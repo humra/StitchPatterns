@@ -6,7 +6,7 @@ title: Patterns
 <h1>Cross-Stitch Patterns</h1>
 
 <div class="pattern-grid">
-  {% assign patterns = site.patterns | sort: "date" | reverse %}
+  {% assign patterns = site.patterns | default: empty | sort: "date" | reverse %}
   {% for pattern in patterns %}
     <article class="pattern-card">
       <a href="{{ pattern.url | relative_url }}">

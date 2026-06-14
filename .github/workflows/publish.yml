@@ -3,7 +3,7 @@ name: Build and publish site
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:
 
 permissions:
@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out master
+      - name: Check out main
         uses: actions/checkout@v4
 
       - name: Set up Ruby
