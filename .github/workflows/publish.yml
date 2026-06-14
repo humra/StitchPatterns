@@ -9,6 +9,9 @@ on:
 permissions:
   contents: write
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,16 +24,14 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
-          bundler-cache: true
 
       - name: Install Jekyll
         run: |
           gem install jekyll bundler
-          bundle init
-          bundle add jekyll
 
       - name: Build site
-        run: jekyll build
+        run: |
+          jekyll build --trace
 
       - name: Publish to live branch
         uses: peaceiris/actions-gh-pages@v3
