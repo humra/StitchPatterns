@@ -5,7 +5,7 @@ image: /assets/images/growlithe.jpg
 difficulty: Beginner
 size: 130 x 130 stitches
 fabric: 16-count Aida
-colors: 12
+colors: 8
 downloads:
   - label: FlossCross file
     file: /assets/flosscross/growlithe.fcjson

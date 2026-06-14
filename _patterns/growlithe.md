@@ -10,7 +10,7 @@ downloads:
   - label: FlossCross file
     file: /assets/flosscross/growlithe.fcjson
   - label: Pattern Keeper file
-    file: /assets/downloads/growlithe.pat
+    file: /assets/downloads/growlithe.pdf
 ---
 
 An adorable fire puppy pattern.
