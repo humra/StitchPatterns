@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<article class="pattern-detail">
+  <h1>{{ page.title }}</h1>
+
+  {% if page.image %}
+    <img class="pattern-main-image" src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+  {% endif %}
+
+  <dl class="pattern-meta">
+    {% if page.difficulty %}
+      <dt>Difficulty</dt>
+      <dd>{{ page.difficulty }}</dd>
+    {% endif %}
+
+    {% if page.size %}
+      <dt>Size</dt>
+      <dd>{{ page.size }}</dd>
+    {% endif %}
+
+    {% if page.fabric %}
+      <dt>Fabric</dt>
+      <dd>{{ page.fabric }}</dd>
+    {% endif %}
+
+    {% if page.colors %}
+      <dt>Colors</dt>
+      <dd>{{ page.colors }}</dd>
+    {% endif %}
+  </dl>
+
+  <div class="pattern-description">
+    {{ content }}
+  </div>
+
+  {% if page.downloads %}
+    <h2>Downloads</h2>
+    <ul class="download-list">
+      {% for download in page.downloads %}
+        <li>
+          <a href="{{ download.file | relative_url }}" download>
+            {{ download.label }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</article>

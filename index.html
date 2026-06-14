@@ -1,0 +1,22 @@
+---
+layout: default
+title: Patterns
+---
+
+<h1>Cross-Stitch Patterns</h1>
+
+<div class="pattern-grid">
+  {% assign patterns = site.patterns | sort: "date" | reverse %}
+  {% for pattern in patterns %}
+    <article class="pattern-card">
+      <a href="{{ pattern.url | relative_url }}">
+        <img src="{{ pattern.image | relative_url }}" alt="{{ pattern.title }}">
+        <h2>{{ pattern.title }}</h2>
+      </a>
+
+      <p>
+        {{ pattern.difficulty }} · {{ pattern.size }}
+      </p>
+    </article>
+  {% endfor %}
+</div>

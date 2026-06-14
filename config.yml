@@ -1,0 +1,16 @@
+title: Cross-Stitch Patterns
+description: Cross-stitch patterns and finished products
+baseurl: "/StitchPatterns" 
+url: ""
+
+collections:
+  patterns:
+    output: true
+    permalink: /patterns/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "patterns"
+    values:
+      layout: pattern
