@@ -1,16 +1,16 @@
 ---
-title: Growlithe
+title: Mermaid
 date: 2026-06-14
-image: /assets/images/growlithe.jpg
+image: /assets/images/mermaid.png
 difficulty: Beginner
 size: 130 x 130 stitches
 fabric: 16-count Aida
 colors: 8
 downloads:
   - label: FlossCross file
-    file: /assets/flosscross/growlithe.fcjson
+    file: /assets/flosscross/mermaid.fcjson
   - label: Pattern Keeper file
-    file: /assets/downloads/growlithe.pdf
+    file: /assets/downloads/mermaid.pdf
 ---
 
-An adorable fire puppy pattern.
+A fancy mermaid pattern.
