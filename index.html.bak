@@ -12,7 +12,6 @@ title: Patterns
       <a href="{{ pattern.url | relative_url }}">
         <img src="{{ pattern.image | relative_url }}" alt="{{ pattern.title }}">
         <h2>{{ pattern.title }}</h2>
-		<small>{{ pattern.path }}</small>
       </a>
 
       <p>
