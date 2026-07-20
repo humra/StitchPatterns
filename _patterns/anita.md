@@ -13,7 +13,7 @@ images:
   - src: /assets/images/anita/Anita5.jpg
     alt: "Fifth image"
 
-stitch_count: 57132
+stitch_count: 57.132
 width_stitches: 207
 height_stitches: 276
 default_aida: 18
