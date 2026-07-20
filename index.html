@@ -10,18 +10,6 @@ title: All Patterns
     <span>All Patterns</span>
   </nav>
 
-  <header class="catalog-header">
-    <div>
-      <p class="eyebrow">Pattern library</p>
-      <h1>All Patterns</h1>
-    </div>
-
-    <p class="catalog-intro">
-      Browse finished pieces, review pattern information and download the
-      files needed for your next project.
-    </p>
-  </header>
-
   {% assign patterns = site.patterns %}
 
 	{% if patterns %}
@@ -80,14 +68,10 @@ title: All Patterns
           {% endif %}
 
           <div class="pattern-card-meta">
-            {% if pattern.width_stitches and pattern.height_stitches %}
+            {% if pattern.stitch_count %}
               <span>
-                {{ pattern.width_stitches }} × {{ pattern.height_stitches }} stitches
+                {{ pattern.stitch_count }} stitches
               </span>
-            {% endif %}
-
-            {% if pattern.fabric.aida_count %}
-              <span>{{ pattern.fabric.aida_count }} count AIDA</span>
             {% endif %}
           </div>
 
