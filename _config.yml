@@ -1,7 +1,8 @@
 title: Cross-Stitch Patterns
 description: Cross-stitch patterns and finished products
-baseurl: "/StitchPatterns" 
-url: ""
+
+baseurl: ""
+url: "https://xstitch.humra.net"
 
 collections:
   patterns:
