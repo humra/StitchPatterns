@@ -1,6 +1,5 @@
 ---
 title: "Anita"
-date: 2026
 
 images:
   - src: /assets/images/anita/Anita1.jpg

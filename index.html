@@ -47,7 +47,6 @@ title: All Patterns
       <article
         class="pattern-card"
         data-title="{{ pattern.title | downcase | escape }}"
-        data-date="{{ pattern.date | date: '%s' }}"
       >
         <a class="pattern-card-image" href="{{ pattern.url | relative_url }}">
           {% if cover %}

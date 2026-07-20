@@ -1,6 +1,5 @@
 ---
 title: "Growlithe"
-date: 2026
 
 images:
   - src: /assets/images/growlithe/growlithe.jpg
