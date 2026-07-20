@@ -125,48 +125,6 @@ layout: default
         </section>
       {% endif %}
 
-      {% if page.fabric %}
-        <section class="detail-section">
-          <h2>Fabric used</h2>
-
-          <dl class="fabric-details">
-            {% if page.fabric.brand %}
-              <div>
-                <dt>Brand</dt>
-                <dd>{{ page.fabric.brand }}</dd>
-              </div>
-            {% endif %}
-
-            {% if page.fabric.type %}
-              <div>
-                <dt>Fabric</dt>
-                <dd>{{ page.fabric.type }}</dd>
-              </div>
-            {% endif %}
-
-            {% if page.fabric.aida_count %}
-              <div>
-                <dt>Count</dt>
-                <dd>{{ page.fabric.aida_count }}</dd>
-              </div>
-            {% endif %}
-
-            {% if page.fabric.colour %}
-              <div>
-                <dt>Colour</dt>
-                <dd>{{ page.fabric.colour }}</dd>
-              </div>
-            {% endif %}
-
-            {% if page.fabric.code %}
-              <div>
-                <dt>Product code</dt>
-                <dd>{{ page.fabric.code }}</dd>
-              </div>
-            {% endif %}
-          </dl>
-        </section>
-      {% endif %}
 
       {% if page.downloads %}
         <section class="download-section">
@@ -215,6 +173,7 @@ layout: default
               <th scope="col">Colour</th>
               <th scope="col">Anchor number</th>
               <th scope="col">Name</th>
+			  <th scope="col">Count</th>
             </tr>
           </thead>
 
@@ -230,6 +189,7 @@ layout: default
                 </td>
                 <td><strong>{{ color.number }}</strong></td>
                 <td>{{ color.name | default: "—" }}</td>
+				<td><strong>{{ color.count }}</strong></td>
               </tr>
             {% endfor %}
           </tbody>
