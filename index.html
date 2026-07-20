@@ -22,7 +22,11 @@ title: All Patterns
     </p>
   </header>
 
-  {% assign patterns = site.patterns | default: empty | sort: "date" | reverse %}
+  {% assign patterns = site.patterns %}
+
+	{% if patterns %}
+		{% assign patterns = patterns | sort: "date" | reverse %}
+	{% endif %}
 
   <div class="catalog-toolbar">
     <p><strong>{{ patterns | size }}</strong> patterns</p>

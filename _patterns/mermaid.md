@@ -1,3 +1,4 @@
+---
 title: "Mermaid"
 date: 2026-07-20
 description: "A dope mermaid."

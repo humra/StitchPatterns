@@ -1,3 +1,4 @@
+---
 title: "Growlithe"
 date: 2026-07-20
 description: "An adorable fire pup."
