@@ -4,7 +4,7 @@ date: 2026-07-20
 description: "A dope mermaid."
 
 images:
-  - src: /assets/images/mermaid/mermaid.jpg
+  - src: /assets/images/mermaid/mermaid.png
     alt: "Source image"
 
 stitch_count: 130
