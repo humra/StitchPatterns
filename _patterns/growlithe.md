@@ -23,14 +23,6 @@ downloads:
     label: "Download PDF pattern (Pattern Keeper)"
     file: /assets/downloads/growlithe/growlithe._patternkeeper.pdf
 
-ANC 1 Snow White - 73
-ANC 236 Charcoal Grey - Dark - 190
-ANC 303 Citrus - Medium - 1372
-ANC 387 Ecru - 746
-ANC 388 Ecru - Medium - 851
-ANC 390 Linen - Light - 927
-ANC 403 Black - 983
-
 colors:
   - number: "1"
     name: "Snow White"
