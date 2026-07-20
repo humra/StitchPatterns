@@ -4,15 +4,15 @@ date: 2026
 description: ""
 
 images:
-  - src: /assets/images/anita/anita1.jpg
+  - src: /assets/images/anita/Anita1.jpg
     alt: "First image"
-  - src: /assets/images/anita/anita2.jpg
+  - src: /assets/images/anita/Anita2.jpg
     alt: "Second image"
-  - src: /assets/images/anita/anita3.jpg
+  - src: /assets/images/anita/Anita3.jpg
     alt: "Third image"
-  - src: /assets/images/anita/anita4.jpg
+  - src: /assets/images/anita/Anita4.jpg
     alt: "Fourth image"
-  - src: /assets/images/anita/anita5.jpg
+  - src: /assets/images/anita/Anita5.jpg
     alt: "Fifth image"
 
 stitch_count: 57132
