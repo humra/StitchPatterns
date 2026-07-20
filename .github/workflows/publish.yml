@@ -36,6 +36,7 @@ jobs:
       - name: Publish to live branch
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: live
-          publish_dir: ./_site
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_branch: live
+            publish_dir: ./_site
+            cname: xstitch.humra.net
