@@ -2,49 +2,239 @@
 layout: default
 ---
 
-<article class="pattern-detail">
-  <h1>{{ page.title }}</h1>
+{% assign main_image = page.images | first %}
+{% assign selected_aida = page.default_aida | default: page.fabric.aida_count | default: 14 %}
 
-  {% if page.image %}
-    <img class="pattern-main-image" src="{{ page.image | relative_url }}" alt="{{ page.title }}">
-  {% endif %}
+<article class="pattern-product">
+  <nav class="breadcrumbs pattern-breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <span aria-hidden="true">/</span>
+    <a href="{{ '/' | relative_url }}">All Patterns</a>
+    <span aria-hidden="true">/</span>
+    <span>{{ page.title }}</span>
+  </nav>
 
-  <dl class="pattern-meta">
-    {% if page.difficulty %}
-      <dt>Difficulty</dt>
-      <dd>{{ page.difficulty }}</dd>
-    {% endif %}
+  <div class="pattern-product-main">
+    <section class="pattern-gallery" aria-label="{{ page.title }} photos">
+      <div class="gallery-main">
+        {% if main_image %}
+          <img
+            src="{{ main_image.src | relative_url }}"
+            alt="{{ main_image.alt | default: page.title | escape }}"
+            data-gallery-main
+          >
+        {% elsif page.image %}
+          <img
+            src="{{ page.image | relative_url }}"
+            alt="{{ page.title | escape }}"
+            data-gallery-main
+          >
+        {% else %}
+          <div class="image-placeholder gallery-placeholder">No image</div>
+        {% endif %}
+      </div>
 
-    {% if page.size %}
-      <dt>Size</dt>
-      <dd>{{ page.size }}</dd>
-    {% endif %}
+      {% if page.images and page.images.size > 1 %}
+        <div class="gallery-thumbnails">
+          {% for image in page.images %}
+            <button
+              class="gallery-thumb{% if forloop.first %} is-active{% endif %}"
+              type="button"
+              data-gallery-thumb
+              data-full="{{ image.src | relative_url }}"
+              data-alt="{{ image.alt | default: page.title | escape }}"
+              aria-label="Show photo {{ forloop.index }}"
+              aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}"
+            >
+              <img
+                src="{{ image.src | relative_url }}"
+                alt=""
+                loading="lazy"
+              >
+            </button>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </section>
 
-    {% if page.fabric %}
-      <dt>Fabric</dt>
-      <dd>{{ page.fabric }}</dd>
-    {% endif %}
+    <section class="pattern-summary">
+      <p class="eyebrow">Cross-stitch pattern</p>
+      <h1>{{ page.title }}</h1>
 
-    {% if page.colors %}
-      <dt>Colors</dt>
-      <dd>{{ page.colors }}</dd>
-    {% endif %}
-  </dl>
+      {% if page.description %}
+        <p class="pattern-description">{{ page.description }}</p>
+      {% endif %}
 
-  <div class="pattern-description">
-    {{ content }}
+      <dl class="pattern-facts">
+        {% if page.stitch_count %}
+          <div>
+            <dt>Stitch count</dt>
+            <dd>{{ page.stitch_count }}</dd>
+          </div>
+        {% endif %}
+
+        {% if page.width_stitches and page.height_stitches %}
+          <div>
+            <dt>Design dimensions</dt>
+            <dd>
+              {{ page.width_stitches }} × {{ page.height_stitches }} stitches
+            </dd>
+          </div>
+        {% endif %}
+
+        {% if page.colors %}
+          <div>
+            <dt>Thread colours</dt>
+            <dd>{{ page.colors | size }} Anchor colours</dd>
+          </div>
+        {% endif %}
+      </dl>
+
+      {% if page.width_stitches and page.height_stitches %}
+        <section
+          class="size-calculator"
+          data-size-calculator
+          data-width-stitches="{{ page.width_stitches }}"
+          data-height-stitches="{{ page.height_stitches }}"
+        >
+          <div class="section-heading-row">
+            <h2>Finished dimensions</h2>
+
+            <label>
+              <span>AIDA count</span>
+              <select data-aida-select>
+                <option value="11"{% if selected_aida == 11 %} selected{% endif %}>11</option>
+                <option value="14"{% if selected_aida == 14 %} selected{% endif %}>14</option>
+                <option value="16"{% if selected_aida == 16 %} selected{% endif %}>16</option>
+                <option value="18"{% if selected_aida == 18 %} selected{% endif %}>18</option>
+                <option value="20"{% if selected_aida == 20 %} selected{% endif %}>20</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="calculated-sizes">
+            <p>
+              <span>Centimetres</span>
+              <strong data-size-centimetres>Calculating…</strong>
+            </p>
+            <p>
+              <span>Inches</span>
+              <strong data-size-inches>Calculating…</strong>
+            </p>
+          </div>
+        </section>
+      {% endif %}
+
+      {% if page.fabric %}
+        <section class="detail-section">
+          <h2>Fabric used</h2>
+
+          <dl class="fabric-details">
+            {% if page.fabric.brand %}
+              <div>
+                <dt>Brand</dt>
+                <dd>{{ page.fabric.brand }}</dd>
+              </div>
+            {% endif %}
+
+            {% if page.fabric.type %}
+              <div>
+                <dt>Fabric</dt>
+                <dd>{{ page.fabric.type }}</dd>
+              </div>
+            {% endif %}
+
+            {% if page.fabric.aida_count %}
+              <div>
+                <dt>Count</dt>
+                <dd>{{ page.fabric.aida_count }}</dd>
+              </div>
+            {% endif %}
+
+            {% if page.fabric.colour %}
+              <div>
+                <dt>Colour</dt>
+                <dd>{{ page.fabric.colour }}</dd>
+              </div>
+            {% endif %}
+
+            {% if page.fabric.code %}
+              <div>
+                <dt>Product code</dt>
+                <dd>{{ page.fabric.code }}</dd>
+              </div>
+            {% endif %}
+          </dl>
+        </section>
+      {% endif %}
+
+      {% if page.downloads %}
+        <section class="download-section">
+          <h2>Pattern downloads</h2>
+
+          <div class="download-buttons">
+            {% for download in page.downloads %}
+              <a
+                class="download-button"
+                href="{{ download.file | relative_url }}"
+                download
+              >
+                <span>{{ download.label }}</span>
+                <small>{{ download.type | upcase }} file</small>
+              </a>
+            {% endfor %}
+          </div>
+        </section>
+      {% endif %}
+    </section>
   </div>
 
-  {% if page.downloads %}
-    <h2>Downloads</h2>
-    <ul class="download-list">
-      {% for download in page.downloads %}
-        <li>
-          <a href="{{ download.file | relative_url }}" download>
-            {{ download.label }}
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
+  {% if content and content != empty %}
+    <section class="long-description detail-wide-section">
+      <p class="eyebrow">About the pattern</p>
+      <h2>Description</h2>
+      <div class="prose">{{ content }}</div>
+    </section>
+  {% endif %}
+
+  {% if page.colors %}
+    <section class="thread-section detail-wide-section">
+      <div class="thread-heading">
+        <div>
+          <p class="eyebrow">Materials</p>
+          <h2>Anchor thread colours</h2>
+        </div>
+
+        <p>{{ page.colors | size }} colours</p>
+      </div>
+
+      <div class="thread-table-wrap">
+        <table class="thread-table">
+          <thead>
+            <tr>
+              <th scope="col">Colour</th>
+              <th scope="col">Anchor number</th>
+              <th scope="col">Name</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            {% for color in page.colors %}
+              <tr>
+                <td>
+                  <span
+                    class="thread-swatch"
+                    style="--swatch: {{ color.hex | default: '#d8d3cc' }};"
+                    aria-label="{{ color.name | default: color.number | escape }}"
+                  ></span>
+                </td>
+                <td><strong>{{ color.number }}</strong></td>
+                <td>{{ color.name | default: "—" }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </section>
   {% endif %}
 </article>

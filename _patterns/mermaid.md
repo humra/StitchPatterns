@@ -1,16 +1,45 @@
----
-title: Mermaid
-date: 2026-06-14
-image: /assets/images/mermaid.png
-difficulty: Beginner
-size: 130 x 130 stitches
-fabric: 16-count Aida
-colors: 8
+title: "Mermaid"
+date: 2026-07-20
+description: "A dope mermaid."
+
+images:
+  - src: /assets/images/mermaid/mermaid.jpg
+    alt: "Source image"
+
+stitch_count: 130
+width_stitches: 130
+height_stitches: 130
+default_aida: 16
+
+fabric:
+  brand: "Zweigart"
+  type: "Aida"
+  aida_count: 14
+  colour: "Antique White"
+  code: "101"
+
 downloads:
-  - label: FlossCross file
-    file: /assets/flosscross/mermaid.fcjson
-  - label: Pattern Keeper file
-    file: /assets/downloads/mermaid.pdf
+  - type: fcjson
+    label: "Download for FlossCross"
+    file: /assets/downloads/mermaid/mermaid.fcjson
+  - type: pdf
+    label: "Download PDF pattern"
+    file: /assets/downloads/mermaid/mermaid.pdf
+
+colors:
+  - number: "1"
+    name: "White"
+    hex: "#F7F7F2"
+  - number: "304"
+    name: "Christmas Red"
+    hex: "#A83A32"
+  - number: "363"
+    name: "Dark Brown"
+    hex: "#52352A"
+  - number: "316"
+    name: "Copper"
+    hex: "#B56C47"
 ---
 
-A fancy mermaid pattern.
+Add any longer description here. This text appears in the Description
+section below the main product information.
