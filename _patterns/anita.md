@@ -1,6 +1,6 @@
 ---
 title: "Anita"
-date: 2026
+date: 2026-07-20
 description: "Test"
 
 images:
