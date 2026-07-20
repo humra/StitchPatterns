@@ -61,10 +61,6 @@ layout: default
       <p class="eyebrow">Cross-stitch pattern</p>
       <h1>{{ page.title }}</h1>
 
-      {% if page.description %}
-        <p class="pattern-description">{{ page.description }}</p>
-      {% endif %}
-
       <dl class="pattern-facts">
         {% if page.stitch_count %}
           <div>
@@ -146,14 +142,6 @@ layout: default
       {% endif %}
     </section>
   </div>
-
-  {% if content and content != empty %}
-    <section class="long-description detail-wide-section">
-      <p class="eyebrow">About the pattern</p>
-      <h2>Description</h2>
-      <div class="prose">{{ content }}</div>
-    </section>
-  {% endif %}
 
   {% if page.colors %}
     <section class="thread-section detail-wide-section">

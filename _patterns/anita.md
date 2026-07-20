@@ -1,7 +1,6 @@
 ---
 title: "Anita"
 date: 2026-07-20
-description: "Test"
 
 images:
   - src: /assets/images/anita/Anita1.jpg
@@ -54,6 +53,3 @@ colors:
     hex: "#45a89a"
 	count: "30441"
 ---
-
-Add any longer description here. This text appears in the Description
-section below the main product information.
