@@ -173,6 +173,7 @@ layout: default
 
 				{% assign colour_name = color.name | default: anchor.name %}
 				{% assign colour_hex = color.hex | default: anchor.hex | default: "#d8d3cc" %}
+				{% assign colour_dmc_match = color.dmc_match | default: "Not found" %}
 
 				<tr>
 				  <td>
