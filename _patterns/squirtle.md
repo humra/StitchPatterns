@@ -2,7 +2,7 @@
 title: "Squirtle"
 
 images:
-  - src: /assets/images/squirtle/squirtle.jpg
+  - src: /assets/images/squirtle/squirtle1.jpg
     alt: "First image"
 
 stitch_count: "8.498"
