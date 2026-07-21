@@ -160,7 +160,7 @@ layout: default
             <tr>
               <th scope="col">Colour</th>
               <th scope="col">Anchor number</th>
-			  <th scope="col">DMC (closest match)
+              <th scope="col">Name</th>
 			  <th scope="col">Count</th>
             </tr>
           </thead>
@@ -170,6 +170,7 @@ layout: default
 				{% assign color_number = color.number | append: "" %}
 				{% assign anchor = site.data.anchor_colors[color_number] %}
 
+				{% assign colour_name = color.name | default: anchor.name %}
 				{% assign colour_hex = color.hex | default: anchor.hex | default: "#d8d3cc" %}
 				{% assign colour_dmc_match = color.dmc_match | default: anchor.dmc_match | default: "—" %}
 
@@ -185,9 +186,15 @@ layout: default
 				  <td>
 					<strong>{{ color.number }}</strong>
 				  </td>
-				  
+
 				  <td>
-				    {{ colour_dmc_match }}
+					{% if colour_name %}
+					  {{ colour_name }}
+					{% else %}
+					  <span class="missing-colour">
+						Anchor colour not found
+					  </span>
+					{% endif %}
 				  </td>
 
 				  <td>
