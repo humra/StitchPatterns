@@ -173,7 +173,7 @@ layout: default
 
 				{% assign colour_name = color.name | default: anchor.name %}
 				{% assign colour_hex = color.hex | default: anchor.hex | default: "#d8d3cc" %}
-				{% assign colour_dmc_match = color.dmc_match | default: "Not found" %}
+				{% assign colour_dmc_match = color.dmc_match | default: anchor.dmc_match | default: "—" %}
 
 				<tr>
 				  <td>
@@ -189,7 +189,7 @@ layout: default
 				  </td>
 				  
 				  <td>
-				    {{ color.dmc_match }}
+				    {{ colour_dmc_match }}
 				  </td>
 
 				  <td>
