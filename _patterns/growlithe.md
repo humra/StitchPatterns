@@ -14,7 +14,7 @@ default_aida: 18
 
 downloads:
   - type: fcjson
-    label: "Download for FlossCross"
+    label: "Download FlossCross file"
     file: /assets/downloads/growlithe/growlithe.fcjson
   - type: pdf
     label: "Download PDF pattern"
