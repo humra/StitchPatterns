@@ -1,8 +1,3 @@
-# Anchor thread colors with Anchor-to-DMC substitutions.
-# DMC conversions are based on CyberStitchers where extracted.
-# Multiple substitutions are separated by " / ".
-# See the accompanying report for entries retained from the existing file.
-
 "1":
   name: "White Bright"
   hex: "#ffffff"
