@@ -9,7 +9,7 @@ images:
   - src: /assets/images/wolverine/wolverine3.jpg
     alt: "Third image"
 
-stitch_count: 5.680
+stitch_count: "5.680"
 width_stitches: 75
 height_stitches: 67
 default_aida: 20
