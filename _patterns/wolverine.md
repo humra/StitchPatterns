@@ -2,7 +2,7 @@
 title: "Wolverine Marowak"
 
 images:
-  - src: /assets/images/wolverine/wolverine.jpeg
+  - src: /assets/images/wolverine/wolverine1.jpeg
     alt: "First image"
   - src: /assets/images/wolverine/wolverine2.jpg
     alt: "Second image"
