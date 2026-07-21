@@ -23,11 +23,6 @@ downloads:
     label: "Download FlossCross file"
     file: /assets/downloads/mermaid/mermaid.fcjson
 
-ANC 871 Amethyst - Medium Light - 652
-ANC 1037 Sea Blue - Very Light - 363
-ANC 1070 Jade - Light - 547
-ANC 293 + ANC 95 Blend - 159
-
 colors:
   - number: "63"
     count: "860"
