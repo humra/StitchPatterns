@@ -54,10 +54,10 @@ colors:
     count: "812"
   - number: "175 + 128"
     name: "Blend"
-	hex: "#123456"
+    hex: "#123456"
     count: "483"
   - number: "849 + 168"
     name: "Blend"
-	hex: "#123456"
+    hex: "#123456"
     count: "295"
 ---
