@@ -25,11 +25,6 @@ downloads:
     label: "Download FlossCross file"
     file: /assets/downloads/fight/fight.fcjson
 
-ANC 875 Pine - Light 606 stitches
-ANC 1033 Antique Blue - Light 3818 stitches
-ANC 1066 Teal - Medium 88 stitches
-ANC 9046 Christmas Red 51 stitches
-
 colors:
   - number: "54"
     name: "China Rose - Dark"
