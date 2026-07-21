@@ -1,0 +1,2234 @@
+# Anchor thread colors with Anchor-to-DMC substitutions.
+# DMC conversions are based on CyberStitchers where extracted.
+# Multiple substitutions are separated by " / ".
+# See the accompanying report for entries retained from the existing file.
+
+"1":
+  name: "White Bright"
+  hex: "#ffffff"
+  dmc_match: "White / B5200"
+
+"2":
+  name: "White"
+  hex: "#fafafa"
+  dmc_match: "White / 3865"
+
+"6":
+  name: "Peach Very Light"
+  hex: "#ffc2b1"
+  dmc_match: "353"
+
+"8":
+  name: "Peach Light"
+  hex: "#fdac90"
+  dmc_match: "3824"
+
+"9":
+  name: "Coral Very Light"
+  hex: "#ec887d"
+  dmc_match: "352"
+
+"10":
+  name: "Coral Light"
+  hex: "#e97c75"
+  dmc_match: "351"
+
+"11":
+  name: "Coral Medium"
+  hex: "#d8574f"
+  dmc_match: "350"
+
+"13":
+  name: "Coral Dark"
+  hex: "#b60800"
+  dmc_match: "349 / 817"
+
+"19":
+  name: "Pink Bright Ultra Very"
+  hex: "#ae1a3c"
+  dmc_match: "321"
+
+"20":
+  name: "Garnet Light"
+  hex: "#99112e"
+  dmc_match: "816"
+
+"22":
+  name: "Garnet"
+  hex: "#7e0520"
+  dmc_match: "815 / 902"
+
+"23":
+  name: "Baby Pink Very Light"
+  hex: "#fdc8c9"
+  dmc_match: "151 / 963"
+
+"24":
+  name: "Baby Pink Light"
+  hex: "#fba8ab"
+  dmc_match: "776"
+
+"25":
+  name: "Baby Pink"
+  hex: "#ec9eae"
+  dmc_match: "3716"
+
+"26":
+  name: "Baby Pink Medium"
+  hex: "#f27c88"
+  dmc_match: "894"
+
+"27":
+  name: "Baby Pink Dark"
+  hex: "#eb596e"
+  dmc_match: "893"
+
+"28":
+  name: "Baby Pink Very Dark"
+  hex: "#db3e56"
+  dmc_match: "956"
+
+"29":
+  name: "Baby Pink Ultra Very Dark"
+  hex: "#c31e37"
+  dmc_match: "891"
+
+"31":
+  name: "Pink Bright Light"
+  hex: "#ee7c8d"
+  dmc_match: "3708"
+
+"33":
+  name: "Pink Bright"
+  hex: "#fa7995"
+  dmc_match: "3706 / 892"
+
+"35":
+  name: "Pink Bright Dark"
+  hex: "#ce4060"
+  dmc_match: "3705 / 891"
+
+"36":
+  name: "Pink Bright Very Light"
+  hex: "#f092a0"
+  dmc_match: "3326"
+
+"38":
+  name: "Dusty Pink"
+  hex: "#b64758"
+  dmc_match: "956"
+
+"39":
+  name: "Dusty Pink Dark"
+  hex: "#882e3c"
+  dmc_match: "3832"
+
+"40":
+  name: "Rose"
+  hex: "#ef708a"
+  dmc_match: "956"
+
+"41":
+  name: "Rose Dark"
+  hex: "#c64e67"
+  dmc_match: "893"
+
+"42":
+  name: "Rose Very Dark"
+  hex: "#bb4059"
+  dmc_match: "309 / 3831"
+
+"43":
+  name: "Garnet Medium"
+  hex: "#882639"
+  dmc_match: "815"
+
+"44":
+  name: "Garnet Dark"
+  hex: "#822d3c"
+  dmc_match: "815"
+
+"45":
+  name: "Garnet Very Dark"
+  hex: "#6f2531"
+  dmc_match: "814"
+
+"46":
+  name: "Christmas Red Light"
+  hex: "#d32400"
+  dmc_match: "666"
+
+"47":
+  name: "Christmas Red"
+  hex: "#a51c00"
+  dmc_match: "321"
+
+"48":
+  name: "Pink Very Light"
+  hex: "#fdbcd1"
+  dmc_match: "963"
+
+"49":
+  name: "Pink Light"
+  hex: "#f4aec5"
+  dmc_match: "3689"
+
+"50":
+  name: "Pink"
+  hex: "#ff9fbc"
+  dmc_match: "957"
+
+"52":
+  name: "Pink Dark"
+  hex: "#fc7da3"
+  dmc_match: "899"
+
+"54":
+  name: "Pink Very Dark"
+  hex: "#e1527d"
+  dmc_match: "956"
+
+"55":
+  name: "Pink Mauve Light"
+  hex: "#f99cc8"
+  dmc_match: "603 / 604"
+
+"57":
+  name: "Pink Mauve Medium Dark"
+  hex: "#d24a8a"
+  dmc_match: "601 / 602"
+
+"59":
+  name: "Pink Mauve Ultra Very Dark"
+  hex: "#8d0142"
+  dmc_match: "150 / 326 / 3350 / 3831 / 600"
+
+"60":
+  name: "Cerise Ultra Very Light"
+  hex: "#dd9cb4"
+  dmc_match: "3688"
+
+"62":
+  name: "Cerise Light"
+  hex: "#c34c84"
+  dmc_match: "3805 / 3806 / 603"
+
+"63":
+  name: "Cerise"
+  hex: "#a32c64"
+  dmc_match: "3804 / 602"
+
+"65":
+  name: "Cerise Ultra Very Dark"
+  hex: "#721944"
+  dmc_match: "3350 / 777"
+
+"66":
+  name: "Dusty Plum Light"
+  hex: "#f08bbb"
+  dmc_match: "3688"
+
+"68":
+  name: "Dusty Plum Medium"
+  hex: "#ac396f"
+  dmc_match: "3687"
+
+"69":
+  name: "Dusty Plum Medium Dark"
+  hex: "#700040"
+  dmc_match: "3803"
+
+"70":
+  name: "Dusty Plum Very Dark"
+  hex: "#490029"
+  dmc_match: "3685"
+
+"72":
+  name: "Dusty Plum Ultra Very Dark"
+  hex: "#36011e"
+  dmc_match: "902"
+
+"73":
+  name: "Plum Ultra Very Light"
+  hex: "#ffc5d7"
+  dmc_match: "818 / 963"
+
+"74":
+  name: "Plum Very Light"
+  hex: "#efa1bb"
+  dmc_match: "3354 / 605"
+
+"75":
+  name: "Plum Light"
+  hex: "#e68ba8"
+  dmc_match: "3733 / 962"
+
+"76":
+  name: "Plum Medium Light"
+  hex: "#a34663"
+  dmc_match: "3731 / 3833 / 961"
+
+"77":
+  name: "Plum Medium"
+  hex: "#97345e"
+  dmc_match: "3687"
+
+"78":
+  name: "Plum Medium Dark"
+  hex: "#80294e"
+  dmc_match: "917"
+
+"85":
+  name: "Mauve Very Light"
+  hex: "#fface9"
+  dmc_match: "3609"
+
+"86":
+  name: "Mauve Medium Light"
+  hex: "#ea7bce"
+  dmc_match: "3608"
+
+"87":
+  name: "Mauve"
+  hex: "#c34b99"
+  dmc_match: "3607"
+
+"88":
+  name: "Mauve Medium"
+  hex: "#9d2f6e"
+  dmc_match: "718"
+
+"89":
+  name: "Mauve Dark"
+  hex: "#7d074d"
+  dmc_match: "917"
+
+"90":
+  name: "Purple Light"
+  hex: "#c197b5"
+  dmc_match: "3836"
+
+"92":
+  name: "Purple Medium"
+  hex: "#924c89"
+  dmc_match: "553"
+
+"94":
+  name: "Purple Dark"
+  hex: "#700c63"
+  dmc_match: "917"
+
+"95":
+  name: "Violet Ultra Very Light"
+  hex: "#d9bbdd"
+  dmc_match: "153"
+
+"96":
+  name: "Violet Very Light"
+  hex: "#c98cb8"
+  dmc_match: "554"
+
+"97":
+  name: "Violet Light"
+  hex: "#a86896"
+  dmc_match: "554"
+
+"98":
+  name: "Violet Medium Light"
+  hex: "#975284"
+  dmc_match: "3835 / 553"
+
+"99":
+  name: "Violet Medium Dark"
+  hex: "#7c3969"
+  dmc_match: "552"
+
+"100":
+  name: "Violet Dark"
+  hex: "#642d55"
+  dmc_match: "327 / 3834 / 3837"
+
+"101":
+  name: "Violet Very Dark"
+  hex: "#4b143b"
+  dmc_match: "550"
+
+"102":
+  name: "Lavender Ultra Very Dark"
+  hex: "#310331"
+  dmc_match: "550"
+
+"103":
+  name: "Purple Very Light"
+  hex: "#f2d7ea"
+  dmc_match: "153"
+
+"108":
+  name: "Lavender Very Light"
+  hex: "#b58ec3"
+  dmc_match: "210"
+
+"109":
+  name: "Lavender Light"
+  hex: "#9b69ac"
+  dmc_match: "209"
+
+"110":
+  name: "Lavender Medium"
+  hex: "#7c4a8d"
+  dmc_match: "333"
+
+"111":
+  name: "Lavender Dark"
+  hex: "#5d2c6e"
+  dmc_match: "208"
+
+"112":
+  name: "Lavender Very Dark"
+  hex: "#421f4e"
+  dmc_match: "3837"
+
+"117":
+  name: "Blue Violet Very Light"
+  hex: "#b6c3e5"
+  dmc_match: "341 / 3840"
+
+"118":
+  name: "Blue Violet Light"
+  hex: "#8175ad"
+  dmc_match: "156 / 340"
+
+"119":
+  name: "Blue Violet Dark"
+  hex: "#533872"
+  dmc_match: "333"
+
+"120":
+  name: "Blue Purple Very Light"
+  hex: "#bfcfe9"
+  dmc_match: "157 / 159 / 3747"
+
+"121":
+  name: "Blue Purple Light"
+  hex: "#686e8c"
+  dmc_match: "809"
+
+"122":
+  name: "Blue Purple Medium"
+  hex: "#3f3d5a"
+  dmc_match: "3807"
+
+"123":
+  name: "Blue Purple Dark"
+  hex: "#1b183a"
+  dmc_match: "158 / 791"
+
+"127":
+  name: "Navy Blue Very Dark"
+  hex: "#05002a"
+  dmc_match: "823"
+
+"128":
+  name: "Sky Blue Very Light"
+  hex: "#c2d6f8"
+  dmc_match: "775"
+
+"129":
+  name: "Sky Blue Light"
+  hex: "#9fb4d8"
+  dmc_match: "794"
+
+"130":
+  name: "Sky Blue"
+  hex: "#859abe"
+  dmc_match: "809"
+
+"131":
+  name: "Sky Blue Medium"
+  hex: "#535d86"
+  dmc_match: "798"
+
+"132":
+  name: "Sky Blue Dark"
+  hex: "#363e67"
+  dmc_match: "797"
+
+"133":
+  name: "Sky Blue Very Dark"
+  hex: "#0b1858"
+  dmc_match: "796"
+
+"134":
+  name: "Sky Blue Ultra Dark"
+  hex: "#000040"
+  dmc_match: "820"
+
+"136":
+  name: "Delft Medium"
+  hex: "#7582a8"
+  dmc_match: "793"
+
+"137":
+  name: "Delft Medium Dark"
+  hex: "#465380"
+  dmc_match: "3838 / 798"
+
+"139":
+  name: "Delft Very Dark"
+  hex: "#253156"
+  dmc_match: "797"
+
+"140":
+  name: "Royal Blue Light"
+  hex: "#99b4d7"
+  dmc_match: "3755"
+
+"142":
+  name: "Royal Blue Medium"
+  hex: "#2c4a7c"
+  dmc_match: "798"
+
+"143":
+  name: "Royal Blue Dark"
+  hex: "#162c51"
+  dmc_match: "797"
+
+"144":
+  name: "Navy Blue Ultra Very Light"
+  hex: "#a6bdd9"
+  dmc_match: "827"
+
+"145":
+  name: "Navy Blue Very Light"
+  hex: "#7884a4"
+  dmc_match: "793"
+
+"146":
+  name: "Navy Blue Light"
+  hex: "#425580"
+  dmc_match: "798"
+
+"147":
+  name: "Navy Blue Medium Light"
+  hex: "#203056"
+  dmc_match: "797"
+
+"148":
+  name: "Navy Blue Medium"
+  hex: "#0e204b"
+  dmc_match: "311"
+
+"149":
+  name: "Navy Blue Medium Dark"
+  hex: "#02024f"
+  dmc_match: "803"
+
+"150":
+  name: "Navy Blue Dark"
+  hex: "#09094c"
+  dmc_match: "336"
+
+"152":
+  name: "Navy Blue Ultra Very Dark"
+  hex: "#080031"
+  dmc_match: "939 / 823"
+
+"158":
+  name: "Baby Blue Ultra Very Light"
+  hex: "#d1f3f5"
+  dmc_match: "747"
+
+"159":
+  name: "Baby Blue Light"
+  hex: "#b0d4e9"
+  dmc_match: "162"
+
+"160":
+  name: "Baby Blue"
+  hex: "#9fc8e2"
+  dmc_match: "827"
+
+"161":
+  name: "Baby Blue Dark"
+  hex: "#57819c"
+  dmc_match: "518"
+
+"162":
+  name: "Baby Blue Very Dark"
+  hex: "#265673"
+  dmc_match: "517 / 825"
+
+"164":
+  name: "Baby Blue Ultra Very Dark"
+  hex: "#12354b"
+  dmc_match: "3842 / 824"
+
+"167":
+  name: "Blue Green Light"
+  hex: "#88bdca"
+  dmc_match: "3766"
+
+"168":
+  name: "Blue Green Medium"
+  hex: "#5f858f"
+  dmc_match: "807"
+
+"169":
+  name: "Blue Green Dark"
+  hex: "#2d4f59"
+  dmc_match: "3760 / 806"
+
+"170":
+  name: "Blue Green Very Dark"
+  hex: "#163d48"
+  dmc_match: "3765"
+
+"175":
+  name: "Cornflower Blue Light"
+  hex: "#8d9ec3"
+  dmc_match: "160"
+
+"176":
+  name: "Cornflower Blue Medium"
+  hex: "#635f95"
+  dmc_match: "161 / 3839"
+
+"177":
+  name: "Cornflower Blue Dark"
+  hex: "#3a2d61"
+  dmc_match: "792"
+
+"178":
+  name: "Cornflower Blue Very D"
+  hex: "#2b1d53"
+  dmc_match: "158 / 791"
+
+"185":
+  name: "Turquoise Very Light"
+  hex: "#8ed1c1"
+  dmc_match: "993"
+
+"186":
+  name: "Turquoise Light"
+  hex: "#69b5a3"
+  dmc_match: "992"
+
+"187":
+  name: "Turquoise Medium"
+  hex: "#368b78"
+  dmc_match: "3851"
+
+"188":
+  name: "Turquoise Dark"
+  hex: "#246253"
+  dmc_match: "3812 / 943"
+
+"189":
+  name: "Turquoise Very Dark"
+  hex: "#26443c"
+  dmc_match: "3850"
+
+"203":
+  name: "Emerald Green Ultra Very Light"
+  hex: "#8fc095"
+  dmc_match: "13"
+
+"204":
+  name: "Emerald Green Very Light"
+  hex: "#6a996f"
+  dmc_match: "320"
+
+"205":
+  name: "Emerald Green Light"
+  hex: "#4e7152"
+  dmc_match: "911"
+
+"206":
+  name: "Jade Very Light"
+  hex: "#a0cdb1"
+  dmc_match: "564"
+
+"208":
+  name: "Jade Light"
+  hex: "#669e7c"
+  dmc_match: "3816"
+
+"209":
+  name: "Jade Medium"
+  hex: "#4f8866"
+  dmc_match: "562"
+
+"210":
+  name: "Jade Medium Dark"
+  hex: "#2f583f"
+  dmc_match: "505"
+
+"211":
+  name: "Jade Dark"
+  hex: "#234d34"
+  dmc_match: "700"
+
+"212":
+  name: "Jade Very Dark"
+  hex: "#1d3f2a"
+  dmc_match: "561"
+
+"213":
+  name: "Misty Green Ultra Very Light"
+  hex: "#c5c7b6"
+  dmc_match: "504"
+
+"214":
+  name: "Misty Green Very Light"
+  hex: "#96b39b"
+  dmc_match: "368"
+
+"215":
+  name: "Misty Green Light"
+  hex: "#537b5a"
+  dmc_match: "320"
+
+"216":
+  name: "Misty Green Medium"
+  hex: "#3a5d40"
+  dmc_match: "319"
+
+"217":
+  name: "Misty Green Dark"
+  hex: "#2e4c3c"
+  dmc_match: "367"
+
+"218":
+  name: "Misty Green Very Dark"
+  hex: "#223d2e"
+  dmc_match: "319 / 890"
+
+"225":
+  name: "Christmas Green Very Light"
+  hex: "#79a45e"
+  dmc_match: "702"
+
+"226":
+  name: "Christmas Green Light"
+  hex: "#5b8542"
+  dmc_match: "702"
+
+"227":
+  name: "Christmas Green"
+  hex: "#3a742d"
+  dmc_match: "701"
+
+"228":
+  name: "Christmas Green Medium"
+  hex: "#2c5d22"
+  dmc_match: "700"
+
+"229":
+  name: "Christmas Green Dark"
+  hex: "#204f16"
+  dmc_match: "910"
+
+"230":
+  name: "Emerald Green"
+  hex: "#163729"
+  dmc_match: "909"
+
+"231":
+  name: "Shell Grey Light"
+  hex: "#bdaaa7"
+  dmc_match: "452"
+
+"232":
+  name: "Shell Grey Medium"
+  hex: "#8e807f"
+  dmc_match: "451"
+
+"233":
+  name: "Shell Grey Dark"
+  hex: "#6d615e"
+  dmc_match: "317"
+
+"234":
+  name: "Pearl Grey Very Light"
+  hex: "#c1bfc4"
+  dmc_match: "762"
+
+"235":
+  name: "Pewter Grey"
+  hex: "#484848"
+  dmc_match: "535"
+
+"236":
+  name: "Pewter Grey Very Dark"
+  hex: "#1f1f1f"
+  dmc_match: "413 / 3799"
+
+"238":
+  name: "Chartreuse"
+  hex: "#6d9a3b"
+  dmc_match: "703"
+
+"239":
+  name: "Chartreuse Very Dark"
+  hex: "#4a8626"
+  dmc_match: "702"
+
+"240":
+  name: "Pistachio Green Light"
+  hex: "#a5bf96"
+  dmc_match: "164"
+
+"241":
+  name: "Pistachio Green"
+  hex: "#85ac6e"
+  dmc_match: "989"
+
+"242":
+  name: "Pistachio Green Medium"
+  hex: "#6b8d58"
+  dmc_match: "320"
+
+"243":
+  name: "Pistachio Green Medium Dark"
+  hex: "#5a734a"
+  dmc_match: "3363"
+
+"244":
+  name: "Pistachio Green Medium"
+  hex: "#475c3b"
+  dmc_match: "987"
+
+"245":
+  name: "Pistachio Green Dark"
+  hex: "#344e24"
+  dmc_match: "987"
+
+"246":
+  name: "Pistachio Green Very Dark"
+  hex: "#223915"
+  dmc_match: "986"
+
+"253":
+  name: "Forest Green Ultra Very Light"
+  hex: "#b4bb8e"
+  dmc_match: "14"
+
+"254":
+  name: "Forest Green Very Light"
+  hex: "#9ea668"
+  dmc_match: "16"
+
+"255":
+  name: "Forest Green Light"
+  hex: "#748505"
+  dmc_match: "581"
+
+"256":
+  name: "Forest Green Medium"
+  hex: "#637201"
+  dmc_match: "704"
+
+"257":
+  name: "Forest Green Dark"
+  hex: "#576301"
+  dmc_match: "469"
+
+"258":
+  name: "Forest Green Very Dark"
+  hex: "#454f01"
+  dmc_match: "904"
+
+"259":
+  name: "Laurel Green Very Light"
+  hex: "#e9f8c7"
+  dmc_match: "772"
+
+"260":
+  name: "Laurel Green Light"
+  hex: "#b5c19b"
+  dmc_match: "14"
+
+"261":
+  name: "Laurel Green Medium"
+  hex: "#828f67"
+  dmc_match: "522"
+
+"262":
+  name: "Laurel Green Dark"
+  hex: "#495136"
+  dmc_match: "3051"
+
+"263":
+  name: "Loden Green Dark"
+  hex: "#2f3720"
+  dmc_match: "3362"
+
+"264":
+  name: "Avocado Green Ultra Very Light"
+  hex: "#adbb85"
+  dmc_match: "772"
+
+"265":
+  name: "Avocado Green Very Light"
+  hex: "#8c9e47"
+  dmc_match: "471"
+
+"266":
+  name: "Avocado Green Light"
+  hex: "#718036"
+  dmc_match: "471"
+
+"267":
+  name: "Avocado Green Medium"
+  hex: "#525e27"
+  dmc_match: "469"
+
+"268":
+  name: "Avocado Green Dark"
+  hex: "#414c1b"
+  dmc_match: "3345"
+
+"269":
+  name: "Avocado Green Very Dark"
+  hex: "#282e0f"
+  dmc_match: "936"
+
+"271":
+  name: "Baby Pink Ultra Very L"
+  hex: "#f0cfcf"
+  dmc_match: "819"
+
+"273":
+  name: "Beaver Grey Very Dark"
+  hex: "#302d28"
+  dmc_match: "3787"
+
+"274":
+  name: "Grey Blue Very Light"
+  hex: "#a7b2b5"
+  dmc_match: "928 / 3752"
+
+"275":
+  name: "Off White"
+  hex: "#fff8ce"
+  dmc_match: "746"
+
+"276":
+  name: "Coffee Ultra Very Light"
+  hex: "#e9debe"
+  dmc_match: "822"
+
+"277":
+  name: "Gold Dark"
+  hex: "#4e3008"
+  dmc_match: "830"
+
+"278":
+  name: "Lime Green Light"
+  hex: "#d7cf6d"
+  dmc_match: "165 / 3819"
+
+"279":
+  name: "Lime Green"
+  hex: "#ab9b47"
+  dmc_match: "734"
+
+"280":
+  name: "Yellow Green"
+  hex: "#807138"
+  dmc_match: "166"
+
+"281":
+  name: "Yellow Green Dark"
+  hex: "#4c4416"
+  dmc_match: "3051"
+
+"288":
+  name: "Lemon Light"
+  hex: "#fff472"
+  dmc_match: "445"
+
+"289":
+  name: "Lemon Medium"
+  hex: "#fae555"
+  dmc_match: "307"
+
+"290":
+  name: "Lemon Dark"
+  hex: "#fcc318"
+  dmc_match: "444"
+
+"291":
+  name: "Canary Yellow Bright"
+  hex: "#f1b007"
+  dmc_match: "444"
+
+"292":
+  name: "Golden Brown Very Light"
+  hex: "#ffe88f"
+  dmc_match: "3078"
+
+"293":
+  name: "Golden Yellow Light"
+  hex: "#f8d86c"
+  dmc_match: "727"
+
+"295":
+  name: "Golden Yellow Medium Light"
+  hex: "#f6ce42"
+  dmc_match: "3822 / 726"
+
+"297":
+  name: "Golden Yellow Medium"
+  hex: "#f1b10a"
+  dmc_match: "973"
+
+"298":
+  name: "Golden Yellow Dark"
+  hex: "#f7a613"
+  dmc_match: "972"
+
+"300":
+  name: "Yellow Very Light"
+  hex: "#fce6ab"
+  dmc_match: "745"
+
+"301":
+  name: "Burnt Orange Very Light"
+  hex: "#ffcd7c"
+  dmc_match: "743 / 744"
+
+"302":
+  name: "Burnt Orange Light"
+  hex: "#ffb552"
+  dmc_match: "743"
+
+"303":
+  name: "Burnt Orange Medium"
+  hex: "#ff9413"
+  dmc_match: "742"
+
+"304":
+  name: "Burnt Orange"
+  hex: "#e58300"
+  dmc_match: "741"
+
+"305":
+  name: "Topaz Very Light"
+  hex: "#fdc868"
+  dmc_match: "3821 / 725"
+
+"306":
+  name: "Gold"
+  hex: "#f39d35"
+  dmc_match: "3852 / 3820"
+
+"307":
+  name: "Topaz Light"
+  hex: "#d68017"
+  dmc_match: "783"
+
+"308":
+  name: "Topaz Medium"
+  hex: "#b25c07"
+  dmc_match: "781"
+
+"309":
+  name: "Topaz Medium Dark"
+  hex: "#974400"
+  dmc_match: "780"
+
+"310":
+  name: "Topaz Very Dark"
+  hex: "#7d3b00"
+  dmc_match: "975"
+
+"311":
+  name: "Tangerine Very Light"
+  hex: "#eab069"
+  dmc_match: "3855 / 3827"
+
+"313":
+  name: "Tangerine Light"
+  hex: "#f79759"
+  dmc_match: "3854"
+
+"314":
+  name: "Tangerine Medium"
+  hex: "#f68033"
+  dmc_match: "741"
+
+"316":
+  name: "Tangerine Dark"
+  hex: "#e86027"
+  dmc_match: "740 / 971 / 970"
+
+"323":
+  name: "Orange Spice Light"
+  hex: "#e87d4f"
+  dmc_match: "3825 / 722"
+
+"324":
+  name: "Orange Spice Medium"
+  hex: "#de6734"
+  dmc_match: "922"
+
+"326":
+  name: "Orange Spice Dark"
+  hex: "#b64c1f"
+  dmc_match: "301"
+
+"328":
+  name: "Peach Medium"
+  hex: "#fb8366"
+  dmc_match: "3341"
+
+"329":
+  name: "Peach Dark"
+  hex: "#fb7846"
+  dmc_match: "3340"
+
+"330":
+  name: "Orange"
+  hex: "#f66f1e"
+  dmc_match: "947"
+
+"332":
+  name: "Orange Dark"
+  hex: "#e1520e"
+  dmc_match: "608"
+
+"333":
+  name: "Orange Very Dark"
+  hex: "#d44805"
+  dmc_match: "900"
+
+"334":
+  name: "Orange Red Very Dark"
+  hex: "#ca3c00"
+  dmc_match: "606"
+
+"335":
+  name: "Orange Red"
+  hex: "#d23918"
+  dmc_match: "606"
+
+"336":
+  name: "Mahogany Ultra Very Light"
+  hex: "#f39e7e"
+  dmc_match: "3771"
+
+"337":
+  name: "Mahogany Very Light"
+  hex: "#e07b5e"
+  dmc_match: "3778"
+
+"338":
+  name: "Mahogany Light"
+  hex: "#cc6144"
+  dmc_match: "3778"
+
+"339":
+  name: "Mahogany"
+  hex: "#b44a22"
+  dmc_match: "301"
+
+"340":
+  name: "Mahogany Medium Dark"
+  hex: "#9e3812"
+  dmc_match: "919"
+
+"341":
+  name: "Mahogany Dark"
+  hex: "#8c310f"
+  dmc_match: "400"
+
+"342":
+  name: "Lavender Ultra Very Light"
+  hex: "#d7b3e0"
+  dmc_match: "211"
+
+"343":
+  name: "Antique Blue Light"
+  hex: "#b9c0cd"
+  dmc_match: "3752"
+
+"347":
+  name: "Chocolate Light"
+  hex: "#d3a580"
+  dmc_match: "3064"
+
+"349":
+  name: "Chocolate Medium"
+  hex: "#945731"
+  dmc_match: "3826"
+
+"351":
+  name: "Copper Dark"
+  hex: "#66330e"
+  dmc_match: "400"
+
+"352":
+  name: "Copper Very Dark"
+  hex: "#59280e"
+  dmc_match: "300"
+
+"355":
+  name: "Chocolate Medium Dark"
+  hex: "#713f22"
+  dmc_match: "975"
+
+"357":
+  name: "Chocolate Dark"
+  hex: "#5b2c11"
+  dmc_match: "898"
+
+"358":
+  name: "Coffee Dark"
+  hex: "#62391b"
+  dmc_match: "3862"
+
+"359":
+  name: "Coffee Very Dark"
+  hex: "#552f14"
+  dmc_match: "801"
+
+"360":
+  name: "Black Brown Medium"
+  hex: "#4c270c"
+  dmc_match: "898"
+
+"361":
+  name: "Tan Very Light"
+  hex: "#e7c197"
+  dmc_match: "738"
+
+"362":
+  name: "Tan Medium Light"
+  hex: "#b58e63"
+  dmc_match: "612"
+
+"363":
+  name: "Golden Brown Light"
+  hex: "#b98347"
+  dmc_match: "680"
+
+"365":
+  name: "Golden Brown Medium"
+  hex: "#744817"
+  dmc_match: "435"
+
+"366":
+  name: "Coffee Very Light"
+  hex: "#e1c6ad"
+  dmc_match: "945 / 738"
+
+"367":
+  name: "Coffee Light"
+  hex: "#d9b490"
+  dmc_match: "738"
+
+"368":
+  name: "Coffee"
+  hex: "#bb8f6e"
+  dmc_match: "436"
+
+"369":
+  name: "Coffee Medium Light"
+  hex: "#8b5d3c"
+  dmc_match: "435"
+
+"370":
+  name: "Coffee Medium"
+  hex: "#7b471f"
+  dmc_match: "433"
+
+"371":
+  name: "Coffee Medium Dark"
+  hex: "#633a1b"
+  dmc_match: "975"
+
+"372":
+  name: "Tan"
+  hex: "#c29f6c"
+  dmc_match: "613"
+
+"373":
+  name: "Tan Medium Dark"
+  hex: "#88623a"
+  dmc_match: "3828"
+
+"374":
+  name: "Tan Dark"
+  hex: "#6d4213"
+  dmc_match: "420"
+
+"375":
+  name: "Hazelnut Brown Medium"
+  hex: "#55330e"
+  dmc_match: "869"
+
+"376":
+  name: "Dusty Flesh Light"
+  hex: "#e4bdb0"
+  dmc_match: "3864 / 842"
+
+"378":
+  name: "Dusty Flesh Medium"
+  hex: "#a27567"
+  dmc_match: "3861"
+
+"379":
+  name: "Dusty Flesh Dark"
+  hex: "#92685a"
+  dmc_match: "3863 / 3860"
+
+"380":
+  name: "Black Brown Medium Dark"
+  hex: "#42220a"
+  dmc_match: "779"
+
+"381":
+  name: "Black Brown Dark"
+  hex: "#361a06"
+  dmc_match: "938"
+
+"382":
+  name: "Black Brown Very Dark"
+  hex: "#301400"
+  dmc_match: "3371"
+
+"386":
+  name: "Yellow Ultra Very Light"
+  hex: "#faf4c9"
+  dmc_match: "3823"
+
+"387":
+  name: "Beige Brown Very Light"
+  hex: "#dad2c1"
+  dmc_match: "Ecru"
+
+"388":
+  name: "Beige Brown Light"
+  hex: "#c3b1a7"
+  dmc_match: "842"
+
+"390":
+  name: "Beige Grey Light"
+  hex: "#dbd6c9"
+  dmc_match: "822"
+
+"391":
+  name: "Beige Grey Medium"
+  hex: "#aa9e92"
+  dmc_match: "3033"
+
+"392":
+  name: "Beige Grey Dark"
+  hex: "#806e5d"
+  dmc_match: "642"
+
+"393":
+  name: "Beige Grey Ultra Very Dark"
+  hex: "#55493d"
+  dmc_match: "3790"
+
+"397":
+  name: "Pearl Grey Ultra Very Light"
+  hex: "#d5d4c9"
+  dmc_match: "3024"
+
+"398":
+  name: "Pearl Grey"
+  hex: "#89888a"
+  dmc_match: "168"
+
+"399":
+  name: "Steel Grey Light"
+  hex: "#646263"
+  dmc_match: "318"
+
+"400":
+  name: "Pewter Grey Dark"
+  hex: "#3a3a3a"
+  dmc_match: "317"
+
+"401":
+  name: "Shell Grey Very Dark"
+  hex: "#352c2a"
+  dmc_match: "535"
+
+"403":
+  name: "Black"
+  hex: "#000000"
+  dmc_match: "310"
+
+"410":
+  name: "Electric Blue Dark"
+  hex: "#1d58a0"
+  dmc_match: "3844 / 995"
+
+"433":
+  name: "Electric Blue Medium"
+  hex: "#6badff"
+  dmc_match: "996"
+
+"681":
+  name: "Green Grey"
+  hex: "#37361f"
+  dmc_match: "3051"
+
+"683":
+  name: "Misty Green Ultra Very Dark"
+  hex: "#1f2f27"
+  dmc_match: "500"
+
+"778":
+  name: "Flesh Very Light"
+  hex: "#e0b49d"
+  dmc_match: "3774"
+
+"779":
+  name: "Grey Blue Very Dark"
+  hex: "#415268"
+  dmc_match: "3768"
+
+"830":
+  name: "Drab Brown Very Light"
+  hex: "#ccc3bc"
+  dmc_match: "3024"
+
+"831":
+  name: "Drab Brown Light"
+  hex: "#a69380"
+  dmc_match: "613"
+
+"832":
+  name: "Drab Brown Medium"
+  hex: "#705741"
+  dmc_match: "610"
+
+"842":
+  name: "Khaki Green Light"
+  hex: "#c4be9c"
+  dmc_match: "644"
+
+"843":
+  name: "Khaki Green Medium Light"
+  hex: "#7d754c"
+  dmc_match: "3012"
+
+"844":
+  name: "Khaki Green Medium"
+  hex: "#5e5837"
+  dmc_match: "3011"
+
+"845":
+  name: "Khaki Green Medium Dark"
+  hex: "#443e24"
+  dmc_match: "730"
+
+"846":
+  name: "Khaki Green Dark"
+  hex: "#2e2b1a"
+  dmc_match: "3011"
+
+"847":
+  name: "Grey Blue Ultra Very Light"
+  hex: "#b8c3c6"
+  dmc_match: "3072"
+
+"848":
+  name: "Grey Blue Light"
+  hex: "#9ca29e"
+  dmc_match: "927"
+
+"849":
+  name: "Grey Blue Medium"
+  hex: "#7f8381"
+  dmc_match: "169"
+
+"850":
+  name: "Grey Blue Dark"
+  hex: "#606d74"
+  dmc_match: "931"
+
+"851":
+  name: "Grey Blue Ultra Very Dark"
+  hex: "#334051"
+  dmc_match: "924"
+
+"852":
+  name: "Avocado Ultra Very Light"
+  hex: "#ccc2a5"
+  dmc_match: "644"
+
+"853":
+  name: "Avocado Very Light"
+  hex: "#91886b"
+  dmc_match: "372"
+
+"854":
+  name: "Avocado Light"
+  hex: "#7b7052"
+  dmc_match: "371"
+
+"855":
+  name: "Avocado Medium"
+  hex: "#70633e"
+  dmc_match: "370"
+
+"856":
+  name: "Yellow Green Medium"
+  hex: "#484020"
+  dmc_match: "936"
+
+"858":
+  name: "Fern Green Very Light"
+  hex: "#bcc9b1"
+  dmc_match: "524"
+
+"859":
+  name: "Fern Green Light"
+  hex: "#6f7d63"
+  dmc_match: "3052"
+
+"860":
+  name: "Fern Green Medium"
+  hex: "#505b47"
+  dmc_match: "3362"
+
+"861":
+  name: "Fern Green Dark"
+  hex: "#394131"
+  dmc_match: "935"
+
+"862":
+  name: "Fern Green Very Dark"
+  hex: "#002a1b"
+  dmc_match: "934 / 520"
+
+"868":
+  name: "Peach Flesh"
+  hex: "#d38670"
+  dmc_match: "758"
+
+"869":
+  name: "Antique Violet Very Light"
+  hex: "#b4a2ae"
+  dmc_match: "3743"
+
+"870":
+  name: "Antique Violet Light"
+  hex: "#8d6e83"
+  dmc_match: "3041"
+
+"871":
+  name: "Antique Violet Medium"
+  hex: "#5d4556"
+  dmc_match: "3740"
+
+"872":
+  name: "Antique Violet Medium Dark"
+  hex: "#4e3948"
+  dmc_match: "3740"
+
+"873":
+  name: "Antique Violet Dark"
+  hex: "#422539"
+  dmc_match: "154 / 3740"
+
+"874":
+  name: "Gold Very Light"
+  hex: "#b39360"
+  dmc_match: "834"
+
+"875":
+  name: "Sea Foam Green Light"
+  hex: "#94b4a6"
+  dmc_match: "3817 / 3813"
+
+"876":
+  name: "Sea Foam Green Medium"
+  hex: "#587167"
+  dmc_match: "3816"
+
+"877":
+  name: "Sea Foam Green Dark"
+  hex: "#345b4a"
+  dmc_match: "163 / 3815 / 502"
+
+"878":
+  name: "Sea Foam Green Very Dark"
+  hex: "#1b3d30"
+  dmc_match: "501"
+
+"879":
+  name: "Sea Foam Green Ultra Very Dark"
+  hex: "#193428"
+  dmc_match: "500"
+
+"880":
+  name: "Cream Medium"
+  hex: "#e5c0a4"
+  dmc_match: "951"
+
+"881":
+  name: "Cream Dark"
+  hex: "#e3bb92"
+  dmc_match: "945"
+
+"882":
+  name: "Antique Mahogany Light"
+  hex: "#e69e85"
+  dmc_match: "758"
+
+"883":
+  name: "Antique Mahogany"
+  hex: "#c8755a"
+  dmc_match: "3064"
+
+"884":
+  name: "Antique Mahogany Dark"
+  hex: "#8d4c37"
+  dmc_match: "355"
+
+"885":
+  name: "Yellow Beige Very Light"
+  hex: "#efe4c7"
+  dmc_match: "822"
+
+"886":
+  name: "Yellow Beige Light"
+  hex: "#d3c3a7"
+  dmc_match: "677"
+
+"887":
+  name: "Yellow Beige Medium"
+  hex: "#bcae84"
+  dmc_match: "3013"
+
+"888":
+  name: "Hazelnut Brown Light"
+  hex: "#886940"
+  dmc_match: "370"
+
+"889":
+  name: "Drab Brown Very Dark"
+  hex: "#5c3a18"
+  dmc_match: "610"
+
+"890":
+  name: "Old Gold Medium"
+  hex: "#c38531"
+  dmc_match: "783"
+
+"891":
+  name: "Old Gold Light"
+  hex: "#f7c168"
+  dmc_match: "3825"
+
+"892":
+  name: "Shell Pink Very Light"
+  hex: "#f4dbcf"
+  dmc_match: "225"
+
+"893":
+  name: "Shell Pink Light"
+  hex: "#d7aaa8"
+  dmc_match: "224"
+
+"894":
+  name: "Shell Pink Medium Light"
+  hex: "#d19291"
+  dmc_match: "152"
+
+"895":
+  name: "Shell Pink Medium"
+  hex: "#b97472"
+  dmc_match: "223"
+
+"896":
+  name: "Shell Pink"
+  hex: "#6e3335"
+  dmc_match: "3802"
+
+"897":
+  name: "Shell Pink Very Dark"
+  hex: "#5a0200"
+  dmc_match: "221"
+
+"898":
+  name: "Drab Brown Dark"
+  hex: "#5c4736"
+  dmc_match: "167"
+
+"899":
+  name: "Brown Grey Light"
+  hex: "#938375"
+  dmc_match: "3782"
+
+"900":
+  name: "Beaver Grey Light"
+  hex: "#807e79"
+  dmc_match: "169"
+
+"901":
+  name: "Old Gold Dark"
+  hex: "#a05f00"
+  dmc_match: "3829"
+
+"903":
+  name: "Brown Grey Medium"
+  hex: "#614f40"
+  dmc_match: "3790"
+
+"904":
+  name: "Brown Grey Medium"
+  hex: "#4d3927"
+  dmc_match: "3781"
+
+"905":
+  name: "Brown Grey Dark"
+  hex: "#35271b"
+  dmc_match: "3021 / 3031"
+
+"906":
+  name: "Hazelnut Brown Dark"
+  hex: "#422c14"
+  dmc_match: "3031"
+
+"907":
+  name: "Gold Medium"
+  hex: "#7e5b27"
+  dmc_match: "167"
+
+"914":
+  name: "Flesh Dark"
+  hex: "#a36b5b"
+  dmc_match: "407 / 3859"
+
+"920":
+  name: "Antique Blue Medium Light"
+  hex: "#808b99"
+  dmc_match: "932"
+
+"921":
+  name: "Antique Blue Medium"
+  hex: "#586172"
+  dmc_match: "931"
+
+"922":
+  name: "Antique Blue Dark"
+  hex: "#2d313b"
+  dmc_match: "930"
+
+"923":
+  name: "Christmas Green Very Dark"
+  hex: "#0a3c01"
+  dmc_match: "3818 / 699 / 909"
+
+"924":
+  name: "Yellow Green Very Dark"
+  hex: "#493f0d"
+  dmc_match: "3051"
+
+"925":
+  name: "Yellow Green Very Dark"
+  hex: "#e45634"
+  dmc_match: "946"
+
+"926":
+  name: "Beige Brown Ultra Very Light"
+  hex: "#f3ecdf"
+  dmc_match: "3866 / 712"
+
+"928":
+  name: "Blue Green Very Light"
+  hex: "#acdae6"
+  dmc_match: "3761"
+
+"933":
+  name: "Dusty Flesh Very Light"
+  hex: "#e9d6c7"
+  dmc_match: "948"
+
+"936":
+  name: "Dusty Flesh Very Dark"
+  hex: "#503329"
+  dmc_match: "779"
+
+"939":
+  name: "Blue Grey"
+  hex: "#666d7b"
+  dmc_match: "3755"
+
+"940":
+  name: "Delft Dark"
+  hex: "#373d63"
+  dmc_match: "824"
+
+"941":
+  name: "Cornflower Blue Medium"
+  hex: "#252949"
+  dmc_match: "792"
+
+"942":
+  name: "Tan Light"
+  hex: "#d9ab82"
+  dmc_match: "738"
+
+"943":
+  name: "Tan Medium"
+  hex: "#a57148"
+  dmc_match: "435"
+
+"944":
+  name: "Tan Very Dark"
+  hex: "#783a0d"
+  dmc_match: "869"
+
+"945":
+  name: "Yellow Green Very Light"
+  hex: "#a4975e"
+  dmc_match: "834"
+
+"956":
+  name: "Yellow Green Ultra Very Light"
+  hex: "#c4bc96"
+  dmc_match: "613"
+
+"968":
+  name: "Dusty Violet Light"
+  hex: "#f4c0c1"
+  dmc_match: "778"
+
+"969":
+  name: "Dusty Violet Medium"
+  hex: "#c18c8d"
+  dmc_match: "152"
+
+"970":
+  name: "Dusty Violet Dark"
+  hex: "#834e50"
+  dmc_match: "315"
+
+"972":
+  name: "Dusty Violet Very Dark"
+  hex: "#682f35"
+  dmc_match: "3803"
+
+"975":
+  name: "Blue Very Light"
+  hex: "#c5cdd6"
+  dmc_match: "828"
+
+"976":
+  name: "Blue Light"
+  hex: "#8897ab"
+  dmc_match: "3752"
+
+"977":
+  name: "Blue Medium"
+  hex: "#576a83"
+  dmc_match: "334"
+
+"978":
+  name: "Blue Dark"
+  hex: "#46576b"
+  dmc_match: "322"
+
+"979":
+  name: "Blue Very Dark"
+  hex: "#2d3a4b"
+  dmc_match: "312"
+
+"1001":
+  name: "Golden Brown"
+  hex: "#a75327"
+  dmc_match: "780"
+
+"1002":
+  name: "Golden Brown Very Light"
+  hex: "#dd7841"
+  dmc_match: "976"
+
+"1003":
+  name: "Salmon"
+  hex: "#b15824"
+  dmc_match: "3853 / 921"
+
+"1004":
+  name: "Orange Spice Very Dark"
+  hex: "#863a1a"
+  dmc_match: "400"
+
+"1005":
+  name: "Christmas Red Ultra Very Dark"
+  hex: "#7b0200"
+  dmc_match: "3777"
+
+"1006":
+  name: "Dusty Rose Very Dark"
+  hex: "#8f1800"
+  dmc_match: "304"
+
+"1007":
+  name: "Flesh Very Dark"
+  hex: "#784f42"
+  dmc_match: "3858 / 3772"
+
+"1008":
+  name: "Flesh Medium"
+  hex: "#b68571"
+  dmc_match: "3773"
+
+"1009":
+  name: "Cream"
+  hex: "#ffe3c7"
+  dmc_match: "3773 / 3770"
+
+"1010":
+  name: "Copper Very Light"
+  hex: "#ffdabb"
+  dmc_match: "3856 / 951"
+
+"1011":
+  name: "Peach Flesh Very Light"
+  hex: "#f0dac4"
+  dmc_match: "948"
+
+"1012":
+  name: "Flesh"
+  hex: "#f1bba4"
+  dmc_match: "3779 / 754 / 967"
+
+"1013":
+  name: "Terracotta"
+  hex: "#b8674c"
+  dmc_match: "3778"
+
+"1014":
+  name: "Mahogany Very Dark"
+  hex: "#922700"
+  dmc_match: "335 / 355"
+
+"1015":
+  name: "Mahogany Ultra Very Dark"
+  hex: "#961815"
+  dmc_match: "3777"
+
+"1016":
+  name: "Antique Mauve Very Light"
+  hex: "#ca97a1"
+  dmc_match: "3727"
+
+"1017":
+  name: "Antique Mauve Medium"
+  hex: "#a46e79"
+  dmc_match: "316"
+
+"1018":
+  name: "Antique Mauve Light"
+  hex: "#79454f"
+  dmc_match: "3726"
+
+"1019":
+  name: "Antique Mauve Dark"
+  hex: "#682734"
+  dmc_match: "315 / 3802"
+
+"1020":
+  name: "Dusty Rose Ultra Very Light"
+  hex: "#f2b7bc"
+  dmc_match: "3713"
+
+"1021":
+  name: "Dusty Rose Very Light"
+  hex: "#e3939b"
+  dmc_match: "761"
+
+"1022":
+  name: "Dusty Rose Light"
+  hex: "#e3818b"
+  dmc_match: "760"
+
+"1023":
+  name: "Dusty Rose"
+  hex: "#c1606a"
+  dmc_match: "3712"
+
+"1024":
+  name: "Dusty Rose Medium"
+  hex: "#ac444d"
+  dmc_match: "3328"
+
+"1025":
+  name: "Dusty Rose Dark"
+  hex: "#8e2731"
+  dmc_match: "347"
+
+"1026":
+  name: "Dusty Violet Very Light"
+  hex: "#f2d2d3"
+  dmc_match: "225"
+
+"1027":
+  name: "Shell Pink Medium Dark"
+  hex: "#914e4c"
+  dmc_match: "3722"
+
+"1028":
+  name: "Dusty Plum Dark"
+  hex: "#5f0137"
+  dmc_match: "3685"
+
+"1029":
+  name: "Plum Dark"
+  hex: "#611440"
+  dmc_match: "915"
+
+"1030":
+  name: "Blue Violet Medium"
+  hex: "#7567a3"
+  dmc_match: "155 / 3746"
+
+"1031":
+  name: "Antique Blue Ultra Very Light"
+  hex: "#d2e0f0"
+  dmc_match: "3753"
+
+"1032":
+  name: "Antique Blue Very Light"
+  hex: "#b6c7d5"
+  dmc_match: "3752"
+
+"1033":
+  name: "Antique Blue"
+  hex: "#909aae"
+  dmc_match: "932"
+
+"1034":
+  name: "Antique Blue Medium Dark"
+  hex: "#535e73"
+  dmc_match: "931"
+
+"1035":
+  name: "Antique Blue Very Dark"
+  hex: "#303546"
+  dmc_match: "930"
+
+"1036":
+  name: "Antique Blue Ultra Very Dark"
+  hex: "#1d254c"
+  dmc_match: "3750"
+
+"1037":
+  name: "Blue Ultra Very Light"
+  hex: "#d7e5ea"
+  dmc_match: "3756"
+
+"1038":
+  name: "Baby Blue Medium"
+  hex: "#89b0c8"
+  dmc_match: "519"
+
+"1039":
+  name: "Baby Blue Medium Dark"
+  hex: "#6493b0"
+  dmc_match: "518"
+
+"1040":
+  name: "Beaver Grey Dark"
+  hex: "#45423f"
+  dmc_match: "3023 / 647"
+
+"1041":
+  name: "Beaver Grey Ultra Dark"
+  hex: "#2a2824"
+  dmc_match: "844"
+
+"1042":
+  name: "Sea Foam Green Very Light"
+  hex: "#d7f0d6"
+  dmc_match: "504"
+
+"1043":
+  name: "Pistachio Green Very Light"
+  hex: "#daf6ca"
+  dmc_match: "14 / 369"
+
+"1044":
+  name: "Pistachio Green Ultra Very Dark"
+  hex: "#112e00"
+  dmc_match: "895"
+
+"1045":
+  name: "Golden Brown Medium Light"
+  hex: "#a5753c"
+  dmc_match: "436"
+
+"1046":
+  name: "Golden Brown Medium Dark"
+  hex: "#774a1a"
+  dmc_match: "435"
+
+"1047":
+  name: "Copper Light"
+  hex: "#dd9a6e"
+  dmc_match: "402"
+
+"1048":
+  name: "Copper Medium"
+  hex: "#ac6735"
+  dmc_match: "3776"
+
+"1049":
+  name: "Copper Medium Dark"
+  hex: "#894a1c"
+  dmc_match: "301 / 3826"
+
+"1050":
+  name: "Mocha Brown Dark"
+  hex: "#361f0c"
+  dmc_match: "3781"
+
+"1060":
+  name: "Teal Ultra Light"
+  hex: "#bbe3ea"
+  dmc_match: "3811"
+
+"1062":
+  name: "Teal Light"
+  hex: "#88c3cf"
+  dmc_match: "598"
+
+"1064":
+  name: "Teal Medium Light"
+  hex: "#5ba3b2"
+  dmc_match: "597"
+
+"1066":
+  name: "Teal Medium"
+  hex: "#216b7a"
+  dmc_match: "3809 / 3810"
+
+"1068":
+  name: "Teal"
+  hex: "#0c5360"
+  dmc_match: "3808"
+
+"1070":
+  name: "Jade Light"
+  hex: "#83cfb4"
+  dmc_match: "992"
+
+"1072":
+  name: "Jade Medium Light"
+  hex: "#4baf87"
+  dmc_match: "992"
+
+"1074":
+  name: "Jade Medium"
+  hex: "#45a89a"
+  dmc_match: "3814 / 3848"
+
+"1076":
+  name: "Jade"
+  hex: "#2c897b"
+  dmc_match: "3847 / 991"
+
+"1080":
+  name: "Taupe Ultra Light"
+  hex: "#ebc7a3"
+  dmc_match: "842"
+
+"1082":
+  name: "Taupe Medium Light"
+  hex: "#caae8c"
+  dmc_match: "841"
+
+"1084":
+  name: "Taupe"
+  hex: "#a98966"
+  dmc_match: "840"
+
+"1085":
+  name: "Taupe Dark"
+  hex: "#917452"
+  dmc_match: "370"
+
+"1086":
+  name: "Taupe Medium Dark"
+  hex: "#553d34"
+  dmc_match: "839"
+
+"1088":
+  name: "Taupe Very Dark"
+  hex: "#6d491e"
+  dmc_match: "938"
+
+"1089":
+  name: "Electric Blue Medium"
+  hex: "#09a5b4"
+  dmc_match: "3843 / 3845"
+
+"1090":
+  name: "Electric Blue Light"
+  hex: "#13bfe0"
+  dmc_match: "3846"
+
+"4146":
+  name: "Flesh Light"
+  hex: "#d89d8c"
+  dmc_match: "950"
+
+"5975":
+  name: "Terracotta Dark"
+  hex: "#8f381a"
+  dmc_match: "356 / 3830"
+
+"8581":
+  name: "Beaver Grey Medium"
+  hex: "#403e3a"
+  dmc_match: "3022 / 646"
+
+"9046":
+  name: "Christmas Red Bright"
+  hex: "#c82300"
+  dmc_match: "321"
+
+"9159":
+  name: "Baby Blue Very Light"
+  hex: "#c8f1ff"
+  dmc_match: "3841 / 828"
+
+"9575":
+  name: "Terracotta Light"
+  hex: "#e68e71"
+  dmc_match: "758"
+
+"1092":
+  name: "Teal Light"
+  hex: "#99d8d2"
+  dmc_match: "964"
+
+"1094":
+  name: "Pink Medium Light"
+  hex: "#fc9ec5"
+  dmc_match: "605"
+
+"1096":
+  name: "Blue Grey Light"
+  hex: "#9fb3c1"
+  dmc_match: "3753"
+
+"1098":
+  name: "Red"
+  hex: "#d41829"
+  dmc_match: "3801"
+
+"1201":
+  name: "Desert Sand Light"
+  hex: "#e5ac8d"
+  dmc_match: "950"

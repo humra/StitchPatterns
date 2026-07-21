@@ -166,21 +166,43 @@ layout: default
           </thead>
 
           <tbody>
-            {% for color in page.colors %}
-              <tr>
-                <td>
-                  <span
-                    class="thread-swatch"
-                    style="--swatch: {{ color.hex | default: '#d8d3cc' }};"
-                    aria-label="{{ color.name | default: color.number | escape }}"
-                  ></span>
-                </td>
-                <td><strong>{{ color.number }}</strong></td>
-                <td>{{ color.name | default: "—" }}</td>
-				<td><strong>{{ color.count }}</strong></td>
-              </tr>
-            {% endfor %}
-          </tbody>
+			  {% for color in page.colors %}
+				{% assign color_number = color.number | append: "" %}
+				{% assign anchor = site.data.anchor_colors[color_number] %}
+
+				{% assign colour_name = color.name | default: anchor.name %}
+				{% assign colour_hex = color.hex | default: anchor.hex | default: "#d8d3cc" %}
+
+				<tr>
+				  <td>
+					<span
+					  class="thread-swatch"
+					  style="--swatch: {{ colour_hex }};"
+					  aria-label="{{ colour_name | default: color.number | escape }}"
+					></span>
+				  </td>
+
+				  <td>
+					<strong>{{ color.number }}</strong>
+				  </td>
+
+				  <td>
+					{% if colour_name %}
+					  {{ colour_name }}
+					{% else %}
+					  <span class="missing-colour">
+						Anchor colour not found
+					  </span>
+					{% endif %}
+				  </td>
+
+				  <td>
+					<strong>{{ color.count }}</strong>
+				  </td>
+				</tr>
+			  {% endfor %}
+			</tbody>
+		  
         </table>
       </div>
     </section>
