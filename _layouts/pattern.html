@@ -160,6 +160,7 @@ layout: default
             <tr>
               <th scope="col">Colour</th>
               <th scope="col">Anchor number</th>
+			  <th scope="col">DMC (closest match)
               <th scope="col">Name</th>
 			  <th scope="col">Count</th>
             </tr>
@@ -184,6 +185,10 @@ layout: default
 
 				  <td>
 					<strong>{{ color.number }}</strong>
+				  </td>
+				  
+				  <td>
+				    {{ color.dmc_match }}
 				  </td>
 
 				  <td>
