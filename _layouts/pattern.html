@@ -84,6 +84,15 @@ layout: default
             <dd>{{ page.colors | size }} Anchor colours</dd>
           </div>
         {% endif %}
+		
+		{% if page.tags %}
+		  <div class="pattern-tags">
+		    {% for tag in page.tags %}
+		      <span class="pattern-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+		{% endif %}
+		
       </dl>
 
       {% if page.width_stitches and page.height_stitches %}

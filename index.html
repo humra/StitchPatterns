@@ -74,6 +74,14 @@ title: All Patterns
               </span>
             {% endif %}
           </div>
+		  
+		  {% if pattern.tags %}
+		    <div class="pattern-tags">
+			  {% for tag in pattern.tags %}
+			    <span class="pattern-tag">{{ tag }}</span>
+			  {% endfor %}
+			</div>
+		  {% endif %}
 
           <a class="card-link" href="{{ pattern.url | relative_url }}">
             View pattern

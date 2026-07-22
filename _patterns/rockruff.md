@@ -1,6 +1,9 @@
 ---
 title: "Rockruff"
 
+tags:
+  - "pokémon"
+
 images:
   - src: /assets/images/rockruff/rockruff1.jpg
     alt: "First image"

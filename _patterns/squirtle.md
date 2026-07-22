@@ -1,6 +1,9 @@
 ---
 title: "Squirtle"
 
+tags:
+  - "pokémon"
+
 images:
   - src: /assets/images/squirtle/squirtle1.jpg
     alt: "First image"

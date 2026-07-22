@@ -1,6 +1,10 @@
 ---
 title: "Wolverine Marowak"
 
+tags:
+  - "pokémon"
+  - "marvel"
+
 images:
   - src: /assets/images/wolverine/wolverine1.jpeg
     alt: "First image"

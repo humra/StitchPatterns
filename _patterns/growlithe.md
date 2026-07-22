@@ -1,6 +1,9 @@
 ---
 title: "Growlithe"
 
+tags:
+  - "pokémon"
+
 images:
   - src: /assets/images/growlithe/grow1.jpg
     alt: "First image"
