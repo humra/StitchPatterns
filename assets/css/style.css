@@ -717,3 +717,74 @@ select {
 .pattern-card[hidden] {
   display: none;
 }
+
+.thread-dmc-value {
+  display: none;
+}
+
+[data-thread-system="dmc"] .thread-anchor-value {
+  display: none;
+}
+
+[data-thread-system="dmc"] .thread-dmc-value {
+  display: inline;
+}
+
+.thread-heading-controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.thread-heading-controls > p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.thread-system-toggle {
+  display: inline-flex;
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+}
+
+.thread-system-toggle button {
+  padding: 7px 15px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.thread-system-toggle button:hover {
+  color: var(--text);
+}
+
+.thread-system-toggle button.is-active {
+  background: var(--text);
+  color: white;
+}
+
+.thread-conversion-note {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+[data-thread-system="dmc"] .thread-conversion-note {
+  display: block;
+}
+
+@media (max-width: 620px) {
+  .thread-heading-controls {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
