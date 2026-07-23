@@ -690,3 +690,30 @@ select {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+
+.tag-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 30px;
+}
+
+.tag-filters button {
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.tag-filters button:hover,
+.tag-filters button.is-active {
+  border-color: var(--text);
+  background: var(--text);
+  color: white;
+}
+
+.pattern-card[hidden] {
+  display: none;
+}

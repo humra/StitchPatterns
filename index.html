@@ -27,15 +27,35 @@ title: All Patterns
       </select>
     </label>
   </div>
+  
+  {% assign all_tags = site.patterns | map: "tags" | compact | join: "," | split: "," | uniq | sort %}
+
+	<div class="tag-filters" data-tag-filters>
+	  <button type="button" class="is-active" data-tag-filter="all">
+		All
+	  </button>
+
+	  {% for tag in all_tags %}
+		{% assign clean_tag = tag | strip %}
+		{% if clean_tag != "" %}
+		  <button type="button" data-tag-filter="{{ clean_tag | downcase }}">
+			{{ clean_tag }}
+		  </button>
+		{% endif %}
+	  {% endfor %}
+	</div>
 
   <div class="pattern-grid" data-pattern-grid>
     {% for pattern in patterns %}
       {% assign cover = pattern.images | first %}
 
       <article
-        class="pattern-card"
-        data-title="{{ pattern.title | downcase | escape }}"
-      >
+		class="pattern-card"
+		data-title="{{ pattern.title | downcase | escape }}"
+		data-date="{{ pattern.date | date: '%s' }}"
+		data-tags="{{ pattern.tags | join: ',' | downcase | escape }}"
+	  >
+	  
         <a class="pattern-card-image" href="{{ pattern.url | relative_url }}">
           {% if cover %}
             <img
