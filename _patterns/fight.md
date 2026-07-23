@@ -1,6 +1,8 @@
 ---
 title: "Fight like a girl"
 
+date_added: 2026-07-16
+
 images:
   - src: /assets/images/fight/Fight1.jpg
     alt: "First image"

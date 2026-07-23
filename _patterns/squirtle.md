@@ -1,6 +1,8 @@
 ---
 title: "Squirtle"
 
+date_added: 2026-07-22
+
 tags:
   - "pokémon"
 

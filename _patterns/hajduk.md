@@ -1,6 +1,8 @@
 ---
 title: "Hajduk"
 
+date_added: 2026-07-18
+
 images:
   - src: /assets/images/hajduk/neven1.jpg
     alt: "First image"

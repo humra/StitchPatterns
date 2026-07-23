@@ -13,7 +13,7 @@ title: All Patterns
   {% assign patterns = site.patterns %}
 
 	{% if patterns %}
-		{% assign patterns = patterns | sort: "date" | reverse %}
+		{% assign patterns = patterns | sort: "date_added" | reverse %}
 	{% endif %}
 
   <div class="catalog-toolbar">
@@ -21,9 +21,12 @@ title: All Patterns
 
     <label class="sort-control">
       <span>Sort by</span>
+
       <select data-pattern-sort>
-        <option value="newest">Newest</option>
-        <option value="title">Name</option>
+        <option value="newest">Date added: newest</option>
+        <option value="oldest">Date added: oldest</option>
+        <option value="title-asc">Name: A–Z</option>
+        <option value="title-desc">Name: Z–A</option>
       </select>
     </label>
   </div>
@@ -49,12 +52,11 @@ title: All Patterns
     {% for pattern in patterns %}
       {% assign cover = pattern.images | first %}
 
-      <article
-		class="pattern-card"
-		data-title="{{ pattern.title | downcase | escape }}"
-		data-date="{{ pattern.date | date: '%s' }}"
-		data-tags="{{ pattern.tags | join: ',' | downcase | escape }}"
-	  >
+		<article
+			class="pattern-card"
+			data-title="{{ pattern.title | downcase | escape }}"
+			data-date-added="{% if pattern.date_added %}{{ pattern.date_added | date: '%s' }}{% else %}0{% endif %}"
+		>
 	  
         <a class="pattern-card-image" href="{{ pattern.url | relative_url }}">
           {% if cover %}

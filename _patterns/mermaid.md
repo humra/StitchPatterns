@@ -1,6 +1,8 @@
 ---
 title: "Mermaid"
 
+date_added: 2026-07-19
+
 images:
   - src: /assets/images/mermaid/mermaid1.jpg
     alt: "First image"

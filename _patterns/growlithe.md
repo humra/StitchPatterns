@@ -1,6 +1,8 @@
 ---
 title: "Growlithe"
 
+date_added: 2026-07-17
+
 tags:
   - "pokémon"
 

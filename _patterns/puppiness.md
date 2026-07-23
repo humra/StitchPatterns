@@ -1,6 +1,8 @@
 ---
 title: "Puppiness"
 
+date_added: 2026-07-20
+
 images:
   - src: /assets/images/puppiness/puppiness1.jpg
     alt: "First image"

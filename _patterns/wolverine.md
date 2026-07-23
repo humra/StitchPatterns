@@ -1,6 +1,8 @@
 ---
 title: "Wolverine Marowak"
 
+date_added: 2026-07-23
+
 tags:
   - "pokémon"
   - "marvel"

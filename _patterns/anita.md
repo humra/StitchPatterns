@@ -1,6 +1,8 @@
 ---
 title: "Anita"
 
+date_added: 2026-07-15
+
 images:
   - src: /assets/images/anita/Anita1.jpg
     alt: "First image"

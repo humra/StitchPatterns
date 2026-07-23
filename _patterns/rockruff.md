@@ -1,6 +1,8 @@
 ---
 title: "Rockruff"
 
+date_added: 2026-07-21
+
 tags:
   - "pokémon"
 
