@@ -83,19 +83,48 @@ function initialisePatternSorting() {
     return;
   }
 
-  sort.addEventListener("change", () => {
-    const cards = Array.from(grid.querySelectorAll(".pattern-card"));
+  const sortPatterns = () => {
+    const cards = Array.from(
+      grid.querySelectorAll(".pattern-card")
+    );
 
     cards.sort((first, second) => {
-      if (sort.value === "title") {
-        return first.dataset.title.localeCompare(second.dataset.title);
-      }
+      const firstTitle = first.dataset.title || "";
+      const secondTitle = second.dataset.title || "";
 
-      return Number(second.dataset.date) - Number(first.dataset.date);
+      const firstDate = Number(
+        first.dataset.dateAdded || 0
+      );
+
+      const secondDate = Number(
+        second.dataset.dateAdded || 0
+      );
+
+      switch (sort.value) {
+        case "oldest":
+          return firstDate - secondDate;
+
+        case "title-asc":
+          return firstTitle.localeCompare(secondTitle);
+
+        case "title-desc":
+          return secondTitle.localeCompare(firstTitle);
+
+        case "newest":
+        default:
+          return secondDate - firstDate;
+      }
     });
 
-    cards.forEach((card) => grid.appendChild(card));
-  });
+    cards.forEach((card) => {
+      grid.appendChild(card);
+    });
+  };
+
+  sort.addEventListener("change", sortPatterns);
+
+  // Ensure the selected sorting is applied on page load.
+  sortPatterns();
 }
 
 function initialiseTagFilters() {
