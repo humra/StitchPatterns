@@ -85,15 +85,15 @@ layout: default
           </div>
         {% endif %}
 		
-		{% if page.tags %}
-		  <div class="pattern-tags">
-		    {% for tag in page.tags %}
-		      <span class="pattern-tag">{{ tag }}</span>
-            {% endfor %}
-          </div>
-		{% endif %}
-		
       </dl>
+	  
+	  {% if page.tags %}
+		<div class="pattern-tags">
+		  {% for tag in page.tags %}
+		    <span class="pattern-tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+	  {% endif %}
 
       {% if page.width_stitches and page.height_stitches %}
         <section
