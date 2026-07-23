@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initialiseGallery();
   initialiseSizeCalculators();
   initialisePatternSorting();
+  initialiseTagFilters();
 });
 
 function initialiseGallery() {
@@ -94,5 +95,35 @@ function initialisePatternSorting() {
     });
 
     cards.forEach((card) => grid.appendChild(card));
+  });
+}
+
+function initialiseTagFilters() {
+  const filterContainer = document.querySelector("[data-tag-filters]");
+  const cards = document.querySelectorAll(".pattern-card");
+
+  if (!filterContainer || cards.length === 0) {
+    return;
+  }
+
+  const buttons = filterContainer.querySelectorAll("[data-tag-filter]");
+
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const selectedTag = button.dataset.tagFilter;
+
+      buttons.forEach((item) => {
+        item.classList.toggle("is-active", item === button);
+      });
+
+      cards.forEach((card) => {
+        const tags = card.dataset.tags
+          .split(",")
+          .map((tag) => tag.trim());
+
+        card.hidden =
+          selectedTag !== "all" && !tags.includes(selectedTag);
+      });
+    });
   });
 }
