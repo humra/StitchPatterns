@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initialiseSizeCalculators();
   initialisePatternSorting();
   initialiseTagFilters();
+  initialiseThreadSystemToggle();
 });
 
 function initialiseGallery() {
@@ -154,5 +155,41 @@ function initialiseTagFilters() {
           selectedTag !== "all" && !tags.includes(selectedTag);
       });
     });
+  });
+}
+
+function initialiseThreadSystemToggle() {
+  const threadTables = document.querySelectorAll("[data-thread-table]");
+
+  threadTables.forEach((threadTable) => {
+    const buttons = threadTable.querySelectorAll(
+      "[data-thread-system-button]"
+    );
+
+    if (buttons.length === 0) {
+      return;
+    }
+
+    const setThreadSystem = (system) => {
+      threadTable.dataset.threadSystem = system;
+
+      buttons.forEach((button) => {
+        const isActive =
+          button.dataset.threadSystemButton === system;
+
+        button.classList.toggle("is-active", isActive);
+        button.setAttribute("aria-pressed", String(isActive));
+      });
+    };
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        setThreadSystem(
+          button.dataset.threadSystemButton
+        );
+      });
+    });
+
+    setThreadSystem("anchor");
   });
 }
