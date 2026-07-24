@@ -1,61 +1,6 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>
-    Resources | Cross-Stitch Patterns
-  </title>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta
-    name="description"
-    content="Thread samples and useful cross-stitch resources."
-  >
-
-  <link rel="stylesheet" href="/assets/css/style.css?v=1784922548">
-  <script src="/assets/js/site.js?v=1784922548" defer></script>
-</head>
-
-<body>
-  <div class="announcement">
-    Cross-stitch patterns, finished projects and downloadable files
-  </div>
-
-<div class="announcement">
-  Cross-stitch patterns, finished projects and downloadable files
-</div>
-
-<header class="site-header">
-  <div class="site-header-inner">
-    <a class="site-logo" href="/">
-      Cross-Stitch Patterns
-    </a>
-
-    <nav class="site-nav" aria-label="Main navigation">
-      <a
-        href="/"
-        
-      >
-        Patterns
-      </a>
-
-      <a
-        href="/resources/"
-        aria-current="page"
-      >
-        Resources
-      </a>
-    </nav>
-  </div>
-</header>
-
-<main>
-
-  <main>
-    <section class="resources-page">
+<section class="resources-page">
   <nav class="breadcrumbs" aria-label="Breadcrumb">
-    <a href="/">Home</a>
+    <a href="{{ '/' | relative_url }}">Home</a>
     <span aria-hidden="true">/</span>
     <span>Resources</span>
   </nav>
@@ -85,12 +30,12 @@
 
     <a
       class="thread-reference-image"
-      href="/assets/images/resources/thread-samples.jpg"
+      href="{{ '/assets/images/resources/thread-samples.jpg' | relative_url }}"
       target="_blank"
       rel="noopener"
     >
       <img
-        src="/assets/images/resources/thread-samples.jpg"
+        src="{{ '/assets/images/resources/thread-samples.jpg' | relative_url }}"
         alt="Reference photo showing the thread samples used for the cross-stitch patterns"
       >
 
@@ -163,15 +108,3 @@
     </div>
   </section>
 </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="site-footer-inner">
-      <p class="footer-title">Cross-Stitch Patterns</p>
-	  <p>Created by the Bubuus</p>
-      <p>Cross-stitch patterns and finished projects.</p>
-      <p>&copy; 2026 Cross-Stitch Patterns</p>
-    </div>
-  </footer>
-</body>
-</html>
