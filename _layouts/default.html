@@ -22,6 +22,36 @@
     Cross-stitch patterns, finished projects and downloadable files
   </div>
 
+<div class="announcement">
+  Cross-stitch patterns, finished projects and downloadable files
+</div>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <a class="site-logo" href="{{ '/' | relative_url }}">
+      {{ site.title }}
+    </a>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <a
+        href="{{ '/' | relative_url }}"
+        {% if page.url == "/" %}aria-current="page"{% endif %}
+      >
+        Patterns
+      </a>
+
+      <a
+        href="{{ '/resources/' | relative_url }}"
+        {% if page.url == "/resources/" %}aria-current="page"{% endif %}
+      >
+        Resources
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
   <main>
     {{ content }}
   </main>
