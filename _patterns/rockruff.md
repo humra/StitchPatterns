@@ -9,6 +9,8 @@ tags:
 images:
   - src: /assets/images/rockruff/rockruff1.jpg
     alt: "First image"
+  - src: /assets/images/rockruff/rockruff2.jpeg
+    alt: "Second image"
 
 stitch_count: "7.674"
 width_stitches: 107
