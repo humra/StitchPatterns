@@ -1,6 +1,9 @@
 ---
 title: "Fight like a girl"
 
+tags:
+  - "girly"
+
 date_added: 2026-07-16
 
 images:

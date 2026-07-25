@@ -1,6 +1,9 @@
 ---
 title: "Mermaid"
 
+tags:
+  - "girly"
+
 date_added: 2026-07-19
 
 images:

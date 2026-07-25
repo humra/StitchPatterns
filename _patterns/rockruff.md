@@ -5,6 +5,7 @@ date_added: 2026-07-21
 
 tags:
   - "pokémon"
+  - "cute"
 
 images:
   - src: /assets/images/rockruff/rockruff1.jpg

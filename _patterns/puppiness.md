@@ -1,6 +1,9 @@
 ---
 title: "Puppiness"
 
+tags:
+  - "cute"
+
 date_added: 2026-07-20
 
 images:

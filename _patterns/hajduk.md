@@ -1,6 +1,9 @@
 ---
 title: "Hajduk"
 
+tags:
+  - "emblem"
+
 date_added: 2026-07-18
 
 images:

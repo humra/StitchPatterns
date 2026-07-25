@@ -5,6 +5,7 @@ date_added: 2026-07-17
 
 tags:
   - "pokémon"
+  - "cute"
 
 images:
   - src: /assets/images/growlithe/grow1.jpg
