@@ -9,8 +9,10 @@ tags:
 images:
   - src: /assets/images/squirtle/squirtle1.jpg
     alt: "First image"
+  - src: /assets/images/squirtle/squirtle2.jpg
+    alt: "First image"
 
-stitch_count: "8.498"
+stitch_count: "8.276"
 width_stitches: 126
 height_stitches: 130
 default_aida: 18
@@ -34,17 +36,17 @@ colors:
   - number: "76"
     count: "48"
   - number: "324"
-    count: "361"
+    count: "360"
   - number: "367"
     count: "1.121"
   - number: "368"
     count: "486"
   - number: "403"
-    count: "1.163"
+    count: "1.154"
   - number: "433"
-    count: "846"
+    count: "894"
   - number: "1089"
-    count: "1.410"
+    count: "1.104"
   - number: "1090"
-    count: "2.851"
+    count: "2.897"
 ---
