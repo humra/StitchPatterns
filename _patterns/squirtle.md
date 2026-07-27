@@ -9,7 +9,7 @@ tags:
 images:
   - src: /assets/images/squirtle/squirtle1.jpg
     alt: "First image"
-  - src: /assets/images/squirtle/squirtle2.jpg
+  - src: /assets/images/squirtle/squirtle2.jpeg
     alt: "First image"
 
 stitch_count: "8.276"
