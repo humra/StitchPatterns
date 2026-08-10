@@ -39,7 +39,7 @@ colors:
     count: "48"
   - number: "324 + 1004"
     name: "Blend"
-	hex: "#DE6734"
+    hex: "#DE6734"
     count: "360"
   - number: "367"
     count: "1.121"
