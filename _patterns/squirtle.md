@@ -10,7 +10,9 @@ images:
   - src: /assets/images/squirtle/squirtle1.jpg
     alt: "First image"
   - src: /assets/images/squirtle/squirtle2.jpeg
-    alt: "First image"
+    alt: "Second image"
+  - src: /assets/images/squirtle/squirtle3.jpg
+    alt: "Third image"
 
 stitch_count: "8.276"
 width_stitches: 126
@@ -35,7 +37,9 @@ colors:
     count: "25"
   - number: "76"
     count: "48"
-  - number: "324"
+  - number: "324 + 1004"
+    name: "Blend"
+	hex: "#DE6734"
     count: "360"
   - number: "367"
     count: "1.121"
