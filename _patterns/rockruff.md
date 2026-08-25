@@ -44,7 +44,7 @@ colors:
     count: "1.325"
   - number: "778"
     count: "1.813"
-  - number: "1008"
+  - number: "368"
     count: "866"
   - number: "1012"
     count: "25"
