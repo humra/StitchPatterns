@@ -13,6 +13,8 @@ images:
     alt: "Second image"
   - src: /assets/images/squirtle/squirtle3.jpg
     alt: "Third image"
+  - src: /assets/images/squirtle/squirtle4.jpg
+    alt: "Fourth image"
 
 stitch_count: "8.276"
 width_stitches: 126
