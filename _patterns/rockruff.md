@@ -12,6 +12,8 @@ images:
     alt: "First image"
   - src: /assets/images/rockruff/rockruff2.jpeg
     alt: "Second image"
+  - src: /assets/images/rockruff/rockruff3.jpg
+    alt: "Third image"
 
 stitch_count: "7.674"
 width_stitches: 107
